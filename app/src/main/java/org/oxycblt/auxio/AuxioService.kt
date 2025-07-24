@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * AuxioService.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * zefioService.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package org.oxycblt.zefio
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -26,11 +26,11 @@ import androidx.media3.session.MediaLibraryService
 import androidx.media3.session.MediaSession
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.music.service.IndexerServiceFragment
-import org.oxycblt.auxio.playback.service.MediaSessionServiceFragment
+import org.oxycblt.zefio.music.service.IndexerServiceFragment
+import org.oxycblt.zefio.playback.service.MediaSessionServiceFragment
 
 @AndroidEntryPoint
-class AuxioService : MediaLibraryService(), ForegroundListener {
+class zefioService : MediaLibraryService(), ForegroundListener {
     @Inject lateinit var mediaSessionFragment: MediaSessionServiceFragment
 
     @Inject lateinit var indexingFragment: IndexerServiceFragment
@@ -105,7 +105,7 @@ class AuxioService : MediaLibraryService(), ForegroundListener {
         var isForeground = false
             private set
 
-        // This is only meant for Auxio to internally ensure that it's state management will work.
+        // This is only meant for zefio to internally ensure that it's state management will work.
         const val INTENT_KEY_START_ID = BuildConfig.APPLICATION_ID + ".service.START_ID"
     }
 }

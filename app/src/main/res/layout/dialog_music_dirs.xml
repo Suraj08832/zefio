@@ -2,7 +2,7 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/Widget.Auxio.Dialog.NestedScrollView"
+    style="@style/Widget.zefio.Dialog.NestedScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -13,7 +13,7 @@
 
         <TextView
             android:id="@+id/dirs_mode_header"
-            style="@style/Widget.Auxio.TextView.Header"
+            style="@style/Widget.zefio.TextView.Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/spacing_large"
@@ -35,7 +35,7 @@
             app:selectionRequired="true"
             app:singleSelection="true">
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/dirs_mode_exclude"
                 style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="0dp"
@@ -44,7 +44,7 @@
                 android:text="@string/set_dirs_mode_exclude"
                 tools:icon="@drawable/ic_check_24" />
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/dirs_mode_include"
                 style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="0dp"
@@ -74,7 +74,7 @@
 
         <TextView
             android:id="@+id/dirs_list_header"
-            style="@style/Widget.Auxio.TextView.Header"
+            style="@style/Widget.zefio.TextView.Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/spacing_large"
@@ -82,9 +82,9 @@
             android:text="@string/set_dirs_list"
             app:layout_constraintTop_toBottomOf="@+id/dirs_list_header_divider" />
 
-        <org.oxycblt.auxio.ui.RippleFixMaterialButton
+        <org.oxycblt.zefio.ui.RippleFixMaterialButton
             android:id="@+id/dirs_add"
-            style="@style/Widget.Auxio.Button.Icon.Small"
+            style="@style/Widget.zefio.Button.Icon.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/spacing_mid_large"
@@ -95,7 +95,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/dirs_recycler"
-            style="@style/Widget.Auxio.RecyclerView.Linear"
+            style="@style/Widget.zefio.RecyclerView.Linear"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -115,7 +115,7 @@
             android:paddingBottom="@dimen/spacing_medium"
             android:text="@string/err_no_dirs"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.Auxio.LabelLarge"
+            android:textAppearance="@style/TextAppearance.zefio.LabelLarge"
             android:textColor="?android:attr/textColorSecondary"
             app:layout_constraintTop_toTopOf="@+id/dirs_recycler" />
 

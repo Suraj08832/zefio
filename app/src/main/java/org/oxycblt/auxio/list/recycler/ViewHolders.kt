@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * ViewHolders.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * ViewHolders.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,31 +16,31 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.recycler
+package org.oxycblt.zefio.list.recycler
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.divider.MaterialDivider
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.ItemHeaderBinding
-import org.oxycblt.auxio.databinding.ItemParentBinding
-import org.oxycblt.auxio.databinding.ItemSongBinding
-import org.oxycblt.auxio.list.BasicHeader
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.areNamesTheSame
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.getPlural
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.ItemHeaderBinding
+import org.oxycblt.zefio.databinding.ItemParentBinding
+import org.oxycblt.zefio.databinding.ItemSongBinding
+import org.oxycblt.zefio.list.BasicHeader
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.areNamesTheSame
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.getPlural
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [RecyclerView.ViewHolder] that displays a [Song]. Use [from] to create an instance.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * Start.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * Start.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.tasker
+package org.oxycblt.zefio.tasker
 
 import android.app.Activity
 import android.content.Context
@@ -30,9 +30,9 @@ import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfigNoInput
 import com.joaomgcd.taskerpluginlibrary.input.TaskerInput
 import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResult
 import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResultSucess
-import org.oxycblt.auxio.AuxioService
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
+import org.oxycblt.zefio.zefioService
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
 
 class StartActionHelper(config: TaskerPluginConfig<Unit>) :
     TaskerPluginConfigHelperNoOutputOrInput<StartActionRunner>(config) {
@@ -60,9 +60,9 @@ class StartActionRunner : TaskerPluginRunnerActionNoOutputOrInput() {
     override fun run(context: Context, input: TaskerInput<Unit>): TaskerPluginResult<Unit> {
         ContextCompat.startForegroundService(
             context,
-            Intent(context, AuxioService::class.java)
-                .putExtra(AuxioService.INTENT_KEY_START_ID, IntegerTable.START_ID_TASKER))
-        while (!AuxioService.isForeground) {
+            Intent(context, zefioService::class.java)
+                .putExtra(zefioService.INTENT_KEY_START_ID, IntegerTable.START_ID_TASKER))
+        while (!zefioService.isForeground) {
             Thread.sleep(100)
         }
         return TaskerPluginResultSucess()

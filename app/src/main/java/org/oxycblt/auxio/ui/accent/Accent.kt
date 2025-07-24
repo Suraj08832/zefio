@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * Accent.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * Accent.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,11 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui.accent
+package org.oxycblt.zefio.ui.accent
 
 import android.os.Build
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.logW
 
 private val accentNames =
     intArrayOf(
@@ -44,44 +44,44 @@ private val accentNames =
 
 private val accentThemes =
     intArrayOf(
-        R.style.Theme_Auxio_Red,
-        R.style.Theme_Auxio_Pink,
-        R.style.Theme_Auxio_Purple,
-        R.style.Theme_Auxio_DeepPurple,
-        R.style.Theme_Auxio_Indigo,
-        R.style.Theme_Auxio_Blue,
-        R.style.Theme_Auxio_DeepBlue,
-        R.style.Theme_Auxio_Cyan,
-        R.style.Theme_Auxio_Teal,
-        R.style.Theme_Auxio_Green,
-        R.style.Theme_Auxio_DeepGreen,
-        R.style.Theme_Auxio_Lime,
-        R.style.Theme_Auxio_Yellow,
-        R.style.Theme_Auxio_Orange,
-        R.style.Theme_Auxio_Brown,
-        R.style.Theme_Auxio_Grey,
-        R.style.Theme_Auxio_App // Dynamic colors are on the base theme
+        R.style.Theme_zefio_Red,
+        R.style.Theme_zefio_Pink,
+        R.style.Theme_zefio_Purple,
+        R.style.Theme_zefio_DeepPurple,
+        R.style.Theme_zefio_Indigo,
+        R.style.Theme_zefio_Blue,
+        R.style.Theme_zefio_DeepBlue,
+        R.style.Theme_zefio_Cyan,
+        R.style.Theme_zefio_Teal,
+        R.style.Theme_zefio_Green,
+        R.style.Theme_zefio_DeepGreen,
+        R.style.Theme_zefio_Lime,
+        R.style.Theme_zefio_Yellow,
+        R.style.Theme_zefio_Orange,
+        R.style.Theme_zefio_Brown,
+        R.style.Theme_zefio_Grey,
+        R.style.Theme_zefio_App // Dynamic colors are on the base theme
         )
 
 private val accentBlackThemes =
     intArrayOf(
-        R.style.Theme_Auxio_Black_Red,
-        R.style.Theme_Auxio_Black_Pink,
-        R.style.Theme_Auxio_Black_Purple,
-        R.style.Theme_Auxio_Black_DeepPurple,
-        R.style.Theme_Auxio_Black_Indigo,
-        R.style.Theme_Auxio_Black_Blue,
-        R.style.Theme_Auxio_Black_DeepBlue,
-        R.style.Theme_Auxio_Black_Cyan,
-        R.style.Theme_Auxio_Black_Teal,
-        R.style.Theme_Auxio_Black_Green,
-        R.style.Theme_Auxio_Black_DeepGreen,
-        R.style.Theme_Auxio_Black_Lime,
-        R.style.Theme_Auxio_Black_Yellow,
-        R.style.Theme_Auxio_Black_Orange,
-        R.style.Theme_Auxio_Black_Brown,
-        R.style.Theme_Auxio_Black_Grey,
-        R.style.Theme_Auxio_Black // Dynamic colors are on the base theme
+        R.style.Theme_zefio_Black_Red,
+        R.style.Theme_zefio_Black_Pink,
+        R.style.Theme_zefio_Black_Purple,
+        R.style.Theme_zefio_Black_DeepPurple,
+        R.style.Theme_zefio_Black_Indigo,
+        R.style.Theme_zefio_Black_Blue,
+        R.style.Theme_zefio_Black_DeepBlue,
+        R.style.Theme_zefio_Black_Cyan,
+        R.style.Theme_zefio_Black_Teal,
+        R.style.Theme_zefio_Black_Green,
+        R.style.Theme_zefio_Black_DeepGreen,
+        R.style.Theme_zefio_Black_Lime,
+        R.style.Theme_zefio_Black_Yellow,
+        R.style.Theme_zefio_Black_Orange,
+        R.style.Theme_zefio_Black_Brown,
+        R.style.Theme_zefio_Black_Grey,
+        R.style.Theme_zefio_Black // Dynamic colors are on the base theme
         )
 
 private val accentPrimaryColors =

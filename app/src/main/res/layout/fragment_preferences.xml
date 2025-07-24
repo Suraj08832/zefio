@@ -7,9 +7,9 @@
     android:orientation="vertical"
     android:transitionGroup="true">
 
-    <org.oxycblt.auxio.ui.CoordinatorAppBarLayout
+    <org.oxycblt.zefio.ui.CoordinatorAppBarLayout
         android:id="@+id/preferences_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.zefio.AppBarLayout"
         android:clickable="true"
         android:focusable="true"
         app:liftOnScroll="true">
@@ -21,7 +21,7 @@
             app:navigationIcon="@drawable/ic_back_24"
             app:title="@string/set_root_title" />
 
-    </org.oxycblt.auxio.ui.CoordinatorAppBarLayout>
+    </org.oxycblt.zefio.ui.CoordinatorAppBarLayout>
 
     <FrameLayout
         android:id="@android:id/list_container"

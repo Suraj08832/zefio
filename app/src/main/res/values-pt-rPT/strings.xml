@@ -95,7 +95,7 @@
     <string name="set_action_mode_repeat">Modo de repetição</string>
     <string name="set_play_song_from_artist">Reproduzir do artista</string>
     <string name="set_repeat_pause">Pausar na repetição</string>
-    <string name="err_no_perms">O Auxio precisa de permissão para ler a sua biblioteca de músicas</string>
+    <string name="err_no_perms">O zefio precisa de permissão para ler a sua biblioteca de músicas</string>
     <string name="err_no_dirs">Sem pastas</string>
     <string name="err_bad_dir">Esta pasta não é compatível</string>
     <string name="desc_song_handle">Mover esta música da fila</string>
@@ -232,7 +232,7 @@
     <string name="set_reindex">Recarregar música</string>
     <string name="fmt_list">%1$s, %2$s</string>
     <string name="set_rescan">Procurar músicas novamente</string>
-    <string name="desc_auxio_icon">Ícone do Auxio</string>
+    <string name="desc_zefio_icon">Ícone do zefio</string>
     <string name="lbl_shuffle_shortcut_long">Misturar tudo</string>
     <string name="set_play_in_list_with">Ao tocar da biblioteca</string>
     <string name="lbl_singles">Singles</string>

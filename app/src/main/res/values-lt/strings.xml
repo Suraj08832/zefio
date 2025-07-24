@@ -134,11 +134,11 @@
     <string name="set_replay_gain_mode_album">Pageidauti albumui</string>
     <string name="set_replay_gain_mode_dynamic">Pageidauti albumui, jei vienas groja</string>
     <string name="err_no_app">Programėlę nerasta, kuri galėtų atlikti šią užduotį.</string>
-    <string name="desc_auxio_icon">„Auxio“ piktograma</string>
+    <string name="desc_zefio_icon">„zefio“ piktograma</string>
     <string name="desc_song_handle">Perkelti šią dainą</string>
     <string name="desc_tab_handle">Perkelti šį skirtuką</string>
     <string name="err_index_failed">Nepavyko įkelti muzikos.</string>
-    <string name="err_no_perms">„Auxio“ reikia leidimo skaityti tavo muzikos biblioteką.</string>
+    <string name="err_no_perms">„zefio“ reikia leidimo skaityti tavo muzikos biblioteką.</string>
     <string name="fmt_disc_no">%d diskas</string>
     <string name="fmt_db_pos">+%.1f dB</string>
     <string name="fmt_db_neg">-%.1f dB</string>

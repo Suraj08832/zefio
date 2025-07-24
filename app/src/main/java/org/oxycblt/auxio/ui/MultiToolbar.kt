@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MultiToolbar.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MultiToolbar.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.animation.AnimatorSet
 import android.animation.ValueAnimator
@@ -31,7 +31,7 @@ import androidx.core.view.isInvisible
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import com.google.android.material.R as MR
 import com.google.android.material.motion.MotionUtils
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.util.logD
 
 class MultiToolbar
 @JvmOverloads

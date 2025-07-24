@@ -209,7 +209,7 @@
     <string name="set_rescan_desc">Rensa tagbiblioteket och ladda komplett om musikbiblioteket (långsammare, men mer komplett)</string>
     <string name="err_no_music">Ingen musik på gång</string>
     <string name="err_index_failed">Läsa in musik misslyckades</string>
-    <string name="err_no_perms">Auxio måste ges behörighet för att läsa in ditt musikbibliotek</string>
+    <string name="err_no_perms">zefio måste ges behörighet för att läsa in ditt musikbibliotek</string>
     <string name="err_no_app">Ingen lämplig app kunde hittas</string>
     <string name="err_bad_dir">Denna mapp stöds inte</string>
     <string name="desc_track_number">Spår %d</string>
@@ -253,7 +253,7 @@
     <string name="err_no_dirs">Inga mappar</string>
     <string name="desc_exit">Stoppa uppspelning</string>
     <string name="desc_remove_song">Ta bort låt</string>
-    <string name="desc_auxio_icon">Auxio-ikon</string>
+    <string name="desc_zefio_icon">zefio-ikon</string>
     <string name="desc_tab_handle">Flytta flik</string>
     <string name="desc_no_cover">Albumomslag</string>
     <string name="desc_selection_image">Urvalsbild</string>

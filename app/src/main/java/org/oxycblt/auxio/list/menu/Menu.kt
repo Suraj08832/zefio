@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * Menu.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * Menu.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.menu
+package org.oxycblt.zefio.list.menu
 
 import android.os.Parcelable
 import androidx.annotation.MenuRes
 import kotlinx.parcelize.Parcelize
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaySong
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaySong
 
 /**
  * Command to navigate to a specific menu dialog configuration.

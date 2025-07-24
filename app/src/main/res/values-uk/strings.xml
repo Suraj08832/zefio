@@ -234,7 +234,7 @@
     <string name="clr_red">Червоний</string>
     <string name="cdc_mp4">Звук MPEG-4</string>
     <string name="desc_shuffle_all">Перемішати всі пісні</string>
-    <string name="desc_auxio_icon">Іконка Auxio</string>
+    <string name="desc_zefio_icon">Іконка zefio</string>
     <string name="clr_pink">Рожевий</string>
     <string name="clr_orange">Помаранчевий</string>
     <string name="clr_brown">Коричневий</string>
@@ -245,7 +245,7 @@
     <string name="cdc_aac">Розширене кодування звуку (AAC)</string>
     <string name="cdc_mka">Звук Matroska</string>
     <string name="fmt_list">%1$s, %2$s</string>
-    <string name="err_no_perms">Auxio потрібен дозвіл на читання вашої музичної бібліотеки</string>
+    <string name="err_no_perms">zefio потрібен дозвіл на читання вашої музичної бібліотеки</string>
     <string name="set_behavior">Поведінка</string>
     <string name="set_ui_desc">Змініть тему та кольори застосунку</string>
     <string name="set_personalize_desc">Налаштуйте елементи керування та поведінку інтерфейсу користувача</string>

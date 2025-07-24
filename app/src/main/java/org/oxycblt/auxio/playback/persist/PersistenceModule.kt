@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PersistenceModule.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PersistenceModule.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.persist
+package org.oxycblt.zefio.playback.persist
 
 import android.content.Context
 import androidx.room.Room

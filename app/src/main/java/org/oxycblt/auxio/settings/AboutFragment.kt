@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AboutFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * AboutFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings
+package org.oxycblt.zefio.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,15 +25,15 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.transition.MaterialFadeThrough
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentAboutBinding
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.playback.formatDurationMs
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.openInBrowser
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentAboutBinding
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.playback.formatDurationMs
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.openInBrowser
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A [ViewBindingFragment] that displays information about the app and the current music library.
@@ -92,7 +92,7 @@ class AboutFragment : ViewBindingFragment<FragmentAboutBinding>() {
     }
 
     private companion object {
-        const val LINK_SOURCE = "https://github.com/OxygenCobalt/Auxio"
+        const val LINK_SOURCE = "https://github.com/OxygenCobalt/zefio"
         const val LINK_WIKI = "$LINK_SOURCE/wiki"
         const val LINK_LICENSES = "$LINK_WIKI/Licenses"
         const val LINK_PROFILE = "https://github.com/OxygenCobalt"

@@ -271,9 +271,9 @@
     <string name="lbl_share">Megoszt</string>
     <string name="lbl_confirm_delete_playlist">Lejátszólista törlése\?</string>
     <string name="set_dirs_mode_include">Tartalmaz</string>
-    <string name="err_no_perms">Az Auxio engedélyt kér a zenei könyvtár olvasásához</string>
+    <string name="err_no_perms">Az zefio engedélyt kér a zenei könyvtár olvasásához</string>
     <string name="desc_remove_song">Távolítsa el ezt a dalt</string>
-    <string name="desc_auxio_icon">Auxio ikon</string>
+    <string name="desc_zefio_icon">zefio ikon</string>
     <string name="def_disc">Nincs lemez</string>
     <string name="fmt_editing">%s szerkesztése</string>
     <string name="set_square_covers">Négyzet alakú albumborítók</string>

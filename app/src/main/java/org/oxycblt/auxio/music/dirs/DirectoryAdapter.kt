@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * DirectoryAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * DirectoryAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,17 +16,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.dirs
+package org.oxycblt.zefio.music.dirs
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.databinding.ItemMusicDirBinding
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.music.fs.Path
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.ItemMusicDirBinding
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.music.fs.Path
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * [RecyclerView.Adapter] that manages a list of [Path] music directory instances.

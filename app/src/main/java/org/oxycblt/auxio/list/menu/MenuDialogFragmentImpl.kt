@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MenuDialogFragmentImpl.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MenuDialogFragmentImpl.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,28 +16,28 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.menu
+package org.oxycblt.zefio.list.menu
 
 import android.view.MenuItem
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogMenuBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.playback.formatDurationMs
-import org.oxycblt.auxio.util.getPlural
-import org.oxycblt.auxio.util.share
-import org.oxycblt.auxio.util.showToast
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogMenuBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.playback.formatDurationMs
+import org.oxycblt.zefio.util.getPlural
+import org.oxycblt.zefio.util.share
+import org.oxycblt.zefio.util.showToast
 
 /**
  * [MenuDialogFragment] implementation for a [Song].

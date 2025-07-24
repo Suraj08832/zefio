@@ -119,7 +119,7 @@
     <string name="set_play_song_none">Reproducer ab le elemento mostrate</string>
     <string name="set_play_song_from_artist">Reproducer ab artista</string>
     <string name="set_keep_shuffle_desc">Mantener le reproduction aleatori al reproducer un nove canto</string>
-    <string name="err_no_perms">Auxio besonia permission pro leger tu bibliotheca de musica</string>
+    <string name="err_no_perms">zefio besonia permission pro leger tu bibliotheca de musica</string>
     <string name="def_genre">Genere incognite</string>
     <string name="fmt_lib_genre_count">Generes cargate: %d</string>
     <string name="desc_genre_image">Imagine de genere ab %s</string>
@@ -154,7 +154,7 @@
     <string name="desc_exit">Stoppar le reproduction</string>
     <string name="desc_queue_bar">Aperir le cauda</string>
     <string name="desc_music_dir_delete">Remover le dossier</string>
-    <string name="desc_auxio_icon">Icone de Auxio</string>
+    <string name="desc_zefio_icon">Icone de zefio</string>
     <string name="desc_album_cover">Copertura de album pro %s</string>
     <string name="def_artist">Artista incognite</string>
     <string name="def_date">Necun data</string>

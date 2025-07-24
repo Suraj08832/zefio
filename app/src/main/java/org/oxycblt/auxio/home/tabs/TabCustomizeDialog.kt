@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * TabCustomizeDialog.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * TabCustomizeDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.tabs
+package org.oxycblt.zefio.home.tabs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,13 +25,13 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogTabsBinding
-import org.oxycblt.auxio.home.HomeSettings
-import org.oxycblt.auxio.list.EditClickListListener
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogTabsBinding
+import org.oxycblt.zefio.home.HomeSettings
+import org.oxycblt.zefio.list.EditClickListListener
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewBindingMaterialDialogFragment] that allows the user to modify the home [Tab]

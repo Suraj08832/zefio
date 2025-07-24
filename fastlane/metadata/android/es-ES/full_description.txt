@@ -1,4 +1,4 @@
-Auxio es un reproductor de música local con una interfaz de usuario y una experiencia de usuario rápidas y fiables sin las numerosas funciones inútiles presentes en otros reproductores de música. Creado a partir de bibliotecas de reproducción de medios modernas, Auxio tiene un soporte de biblioteca y una calidad de escucha superiores en comparación con otras aplicaciones que utilizan funciones obsoletas de Android. En resumen, <b>reproduce música</b>.
+zefio es un reproductor de música local con una interfaz de usuario y una experiencia de usuario rápidas y fiables sin las numerosas funciones inútiles presentes en otros reproductores de música. Creado a partir de bibliotecas de reproducción de medios modernas, zefio tiene un soporte de biblioteca y una calidad de escucha superiores en comparación con otras aplicaciones que utilizan funciones obsoletas de Android. En resumen, <b>reproduce música</b>.
 
 <b>Características</b>
 

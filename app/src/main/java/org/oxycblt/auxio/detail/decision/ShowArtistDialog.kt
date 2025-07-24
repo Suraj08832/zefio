@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * ShowArtistDialog.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * ShowArtistDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.decision
+package org.oxycblt.zefio.detail.decision
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,15 +27,15 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogMusicChoicesBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogMusicChoicesBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
 
 /**
  * A picker [ViewBindingMaterialDialogFragment] intended for when the [Artist] to show is ambiguous.

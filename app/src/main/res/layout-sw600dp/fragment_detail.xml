@@ -8,9 +8,9 @@
     android:background="?attr/colorSurface"
     android:transitionGroup="true">
 
-    <org.oxycblt.auxio.ui.CoordinatorAppBarLayout
+    <org.oxycblt.zefio.ui.CoordinatorAppBarLayout
         android:id="@+id/detail_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.zefio.AppBarLayout"
         app:liftOnScroll="true"
         app:liftOnScrollTargetViewId="@id/detail_recycler">
 
@@ -34,9 +34,9 @@
                 app:layout_collapseMode="parallax"
                 app:layout_collapseParallaxMultiplier="0.85">
 
-                <org.oxycblt.auxio.image.CoverView
+                <org.oxycblt.zefio.image.CoverView
                     android:id="@+id/detail_cover"
-                    style="@style/Widget.Auxio.Image.MidHuge"
+                    style="@style/Widget.zefio.Image.MidHuge"
                     app:enablePlaybackIndicator="false"
                     app:enableSelectionBadge="false"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -50,7 +50,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_medium"
-                    android:textAppearance="@style/TextAppearance.Auxio.LabelMedium"
+                    android:textAppearance="@style/TextAppearance.zefio.LabelMedium"
                     android:textColor="?attr/colorSecondary"
                     app:layout_constraintBottom_toTopOf="@+id/detail_name"
                     app:layout_constraintStart_toEndOf="@+id/detail_cover"
@@ -60,7 +60,7 @@
 
                 <TextView
                     android:id="@+id/detail_name"
-                    style="@style/Widget.Auxio.TextView.Detail"
+                    style="@style/Widget.zefio.TextView.Detail"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_medium"
@@ -75,7 +75,7 @@
 
                 <TextView
                     android:id="@+id/detail_subhead"
-                    style="@style/Widget.Auxio.TextView.Secondary.Ellipsize"
+                    style="@style/Widget.zefio.TextView.Secondary.Ellipsize"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_medium"
@@ -90,7 +90,7 @@
 
                 <TextView
                     android:id="@+id/detail_info"
-                    style="@style/Widget.Auxio.TextView.Secondary.Base"
+                    style="@style/Widget.zefio.TextView.Secondary.Base"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_medium"
@@ -101,9 +101,9 @@
                     app:layout_constraintTop_toBottomOf="@+id/detail_subhead"
                     tools:text="Info B" />
 
-                <org.oxycblt.auxio.ui.RippleFixMaterialButton
+                <org.oxycblt.zefio.ui.RippleFixMaterialButton
                     android:id="@+id/detail_play_button"
-                    style="@style/Widget.Auxio.Button.Secondary"
+                    style="@style/Widget.zefio.Button.Secondary"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_medium"
@@ -115,9 +115,9 @@
                     app:layout_constraintStart_toEndOf="@+id/detail_cover"
                     app:layout_constraintTop_toBottomOf="@+id/detail_info" />
 
-                <org.oxycblt.auxio.ui.RippleFixMaterialButton
+                <org.oxycblt.zefio.ui.RippleFixMaterialButton
                     android:id="@+id/detail_shuffle_button"
-                    style="@style/Widget.Auxio.Button.Primary"
+                    style="@style/Widget.zefio.Button.Primary"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/spacing_small"
@@ -134,7 +134,7 @@
                 android:layout_gravity="bottom"
                 app:layout_collapseMode="pin" />
 
-            <org.oxycblt.auxio.ui.MultiToolbar
+            <org.oxycblt.zefio.ui.MultiToolbar
                 android:id="@+id/detail_toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                             android:maxLines="1"
                             android:singleLine="true"
                             android:ellipsize="end"
-                            android:textAppearance="@style/TextAppearance.Auxio.TitleLarge"
+                            android:textAppearance="@style/TextAppearance.zefio.TitleLarge"
                             android:textColor="?attr/colorOnSurface"
                             tools:text="Name" />
 
@@ -189,15 +189,15 @@
                     app:menu="@menu/toolbar_edit"
                     app:navigationIcon="@drawable/ic_close_24" />
 
-            </org.oxycblt.auxio.ui.MultiToolbar>
+            </org.oxycblt.zefio.ui.MultiToolbar>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-    </org.oxycblt.auxio.ui.CoordinatorAppBarLayout>
+    </org.oxycblt.zefio.ui.CoordinatorAppBarLayout>
 
-    <org.oxycblt.auxio.list.recycler.AuxioRecyclerView
+    <org.oxycblt.zefio.list.recycler.zefioRecyclerView
         android:id="@+id/detail_recycler"
-        style="@style/Widget.Auxio.RecyclerView.Grid"
+        style="@style/Widget.zefio.RecyclerView.Grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SortModeAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SortModeAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,17 +16,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.sort
+package org.oxycblt.zefio.list.sort
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
-import org.oxycblt.auxio.databinding.ItemSortModeBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.FlexibleListAdapter
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemSortModeBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.FlexibleListAdapter
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [FlexibleListAdapter] that displays a list of [Sort.Mode]s.

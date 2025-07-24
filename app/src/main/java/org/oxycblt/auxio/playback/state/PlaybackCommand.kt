@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * PlaybackCommand.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * PlaybackCommand.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,19 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.state
+package org.oxycblt.zefio.playback.state
 
 import javax.inject.Inject
-import org.oxycblt.auxio.list.ListSettings
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaybackSettings
+import org.oxycblt.zefio.list.ListSettings
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaybackSettings
 
 /**
  * A playback command that can be passed to [PlaybackStateManager] to start new playback.

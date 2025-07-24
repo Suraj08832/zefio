@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * WidgetUtil.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * WidgetUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.widgets
+package org.oxycblt.zefio.widgets
 
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName
@@ -27,13 +27,13 @@ import android.widget.RemoteViews
 import androidx.annotation.DrawableRes
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
-import org.oxycblt.auxio.util.isLandscape
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.newMainPendingIntent
+import org.oxycblt.zefio.util.isLandscape
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.newMainPendingIntent
 
 /**
  * Create a [RemoteViews] instance with the specified layout and an automatic click handler to open
- * the Auxio activity.
+ * the zefio activity.
  *
  * @param context [Context] required to create [RemoteViews].
  * @param layoutRes Resource ID of the layout to use. Must be compatible with [RemoteViews].

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * ViewBindingMaterialDialogFragment.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * ViewBindingMaterialDialogFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,9 +27,9 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.DialogFragment
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.oxycblt.auxio.util.fixDoubleRipple
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.util.fixDoubleRipple
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A lifecycle-aware [DialogFragment] that automatically manages the [ViewBinding] lifecycle as a

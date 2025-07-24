@@ -18,7 +18,7 @@
 ## 3.5.3
 
 #### What's New
-- Basic Tasker integration for safely starting Auxio's service
+- Basic Tasker integration for safely starting zefio's service
 
 #### What's Improved
 - Added support for informal singular-spaced tags like `album artist` in
@@ -446,7 +446,7 @@ audio focus was lost
 - Fixed toolbar flickering when fast-scrolling in the home UI
 
 #### What's Changed
-- Ignore MediaStore tags is now Auxio's default and unchangeable behavior. The option has been removed.
+- Ignore MediaStore tags is now zefio's default and unchangeable behavior. The option has been removed.
 - "Use alternate notification action" is now "Custom notification action"
 - "Show covers" and "Ignore MediaStore covers" have been unified into "Album covers"
 
@@ -486,7 +486,7 @@ audio focus was lost
     - Fix issue where widget covers would not load
     - Use new media notification panel style
     - Add predictive back navigation
-- Auxio has a new, more refined icon style
+- zefio has a new, more refined icon style
 - Added a way to access the system equalizer from the playback menu
 
 #### What's Improved
@@ -569,7 +569,7 @@ in startup
 
 #### What's New
 - Massively overhauled how music is loaded [#72]:
-	- Auxio can now reload music without requiring a restart
+	- zefio can now reload music without requiring a restart
 	- Added a new option to reload music when device files change
 - Added a shuffle shortcut
 - Widgets now have a more sleek and consistent button layout
@@ -790,7 +790,7 @@ artist they are grouped up in
 to when using gesture navigation
 - Band-aided completely broken layouts in split screen mode
 - Fixed crash in the playback view when a song's duration was 0
-- Fixed issue where apps like GadgetBridge would not detect Auxio
+- Fixed issue where apps like GadgetBridge would not detect zefio
 
 #### Dev/Meta:
 - ExoPlayer is now a local dependency
@@ -803,7 +803,7 @@ to when using gesture navigation
 
 ## v2.0.0
 #### What's New:
-- Auxio has a new look derived from Material 3
+- zefio has a new look derived from Material 3
 - Material You support on Android 12
 - Library and song view have been merged into a unified view
 - Shuffle can now be accessed everywhere
@@ -862,7 +862,7 @@ to when using gesture navigation
 - Fast scroller now truncates more aggressively when there is not enough space
 - Minor improvements to layout hierarchy
 - Detail text/track numbers will no longer shrink
-- Loading screen has been tweaked to line up with the rest of Auxio
+- Loading screen has been tweaked to line up with the rest of zefio
 
 #### What's Fixed:
 - Fixed issue where the new about screen would be cut off in landscape mode

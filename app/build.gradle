@@ -12,12 +12,12 @@ plugins {
 
 android {
     compileSdk 34
-    // NDK is not used in Auxio explicitly (used in the ffmpeg extension), but we need to specify
+    // NDK is not used in zefio explicitly (used in the ffmpeg extension), but we need to specify
     // it here so that binary stripping will work.
     // TODO: Eventually you might just want to start vendoring the FFMpeg extension so the
     //  NDK use is unified
     ndkVersion "26.3.11579264"
-    namespace "org.oxycblt.auxio"
+    namespace "org.oxycblt.zefio"
 
     defaultConfig {
         applicationId namespace

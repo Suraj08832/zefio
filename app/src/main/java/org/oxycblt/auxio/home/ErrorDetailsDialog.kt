@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * ErrorDetailsDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * ErrorDetailsDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -25,12 +25,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.navigation.fragment.navArgs
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogErrorDetailsBinding
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.getSystemServiceCompat
-import org.oxycblt.auxio.util.openInBrowser
-import org.oxycblt.auxio.util.showToast
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogErrorDetailsBinding
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.getSystemServiceCompat
+import org.oxycblt.zefio.util.openInBrowser
+import org.oxycblt.zefio.util.showToast
 
 /**
  * A dialog that shows a stack trace for a music loading error.
@@ -83,7 +83,7 @@ class ErrorDetailsDialog : ViewBindingMaterialDialogFragment<DialogErrorDetailsB
     private companion object {
         /** The URL to the bug report issue form */
         const val LINK_ISSUES =
-            "https://github.com/OxygenCobalt/Auxio/issues/new" +
+            "https://github.com/OxygenCobalt/zefio/issues/new" +
                 "?assignees=OxygenCobalt&labels=bug&projects=&template=bug-crash-report.yml"
     }
 }

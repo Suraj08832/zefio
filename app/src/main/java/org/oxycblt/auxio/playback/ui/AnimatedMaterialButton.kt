@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * AnimatedMaterialButton.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * AnimatedMaterialButton.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.ui
+package org.oxycblt.zefio.playback.ui
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -25,8 +25,8 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import com.google.android.material.R as MR
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.motion.MotionUtils
-import org.oxycblt.auxio.ui.RippleFixMaterialButton
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.ui.RippleFixMaterialButton
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [MaterialButton] that automatically morphs from a circle to a squircle shape appearance when

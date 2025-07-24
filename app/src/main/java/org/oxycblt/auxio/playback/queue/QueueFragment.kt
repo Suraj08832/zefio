@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * QueueFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * QueueFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.queue
+package org.oxycblt.zefio.playback.queue
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,13 +28,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import kotlin.math.min
-import org.oxycblt.auxio.databinding.FragmentQueueBinding
-import org.oxycblt.auxio.list.EditClickListListener
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.FragmentQueueBinding
+import org.oxycblt.zefio.list.EditClickListListener
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewBindingFragment] that displays an editable queue.

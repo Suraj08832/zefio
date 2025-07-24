@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * SimpleDiffCallback.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * SimpleDiffCallback.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,10 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.adapter
+package org.oxycblt.zefio.list.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import org.oxycblt.auxio.list.Item
+import org.oxycblt.zefio.list.Item
 
 /**
  * A [DiffUtil.ItemCallback] that automatically implements the [areItemsTheSame] method. Use this

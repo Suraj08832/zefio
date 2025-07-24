@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AuxioRecyclerView.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * zefioRecyclerView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.recycler
+package org.oxycblt.zefio.list.recycler
 
 import android.content.Context
 import android.util.AttributeSet
@@ -24,7 +24,7 @@ import android.view.WindowInsets
 import androidx.annotation.AttrRes
 import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A [RecyclerView] with a few QoL extensions, such as:
@@ -33,7 +33,7 @@ import org.oxycblt.auxio.util.systemBarInsetsCompat
  *
  * @author Alexander Capehart (OxygenCobalt)
  */
-open class AuxioRecyclerView
+open class zefioRecyclerView
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
     RecyclerView(context, attrs, defStyleAttr) {
@@ -42,7 +42,7 @@ constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr
     init {
         // Prevent children from being clipped by window insets
         clipToPadding = false
-        // Auxio's non-dialog RecyclerViews never change their size based on adapter contents,
+        // zefio's non-dialog RecyclerViews never change their size based on adapter contents,
         // so we can enable fixed-size optimizations.
         setHasFixedSize(true)
     }

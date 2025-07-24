@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AccentGridLayoutManager.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * AccentGridLayoutManager.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui.accent
+package org.oxycblt.zefio.ui.accent
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlin.math.max
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.getDimenPixels
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.getDimenPixels
 
 /**
  * A [GridLayoutManager] that automatically sets the span size in order to use the most possible

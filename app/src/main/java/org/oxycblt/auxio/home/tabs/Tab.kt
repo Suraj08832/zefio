@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * Tab.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * Tab.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,11 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.tabs
+package org.oxycblt.zefio.home.tabs
 
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.logW
 
 /**
  * A representation of a library tab suitable for configuration.
@@ -44,7 +44,7 @@ sealed class Tab(open val type: MusicType) {
     data class Invisible(override val type: MusicType) : Tab(type)
 
     companion object {
-        // Like other IO-bound datatypes in Auxio, tabs are stored in a binary format. However, tabs
+        // Like other IO-bound datatypes in zefio, tabs are stored in a binary format. However, tabs
         // cannot be serialized on their own. Instead, they are saved as a sequence of tabs as shown
         // below:
         //

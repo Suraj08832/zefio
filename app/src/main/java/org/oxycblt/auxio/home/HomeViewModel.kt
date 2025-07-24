@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * HomeViewModel.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * HomeViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,29 +16,29 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.home.tabs.Tab
-import org.oxycblt.auxio.list.ListSettings
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaySong
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.util.Event
-import org.oxycblt.auxio.util.MutableEvent
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.home.tabs.Tab
+import org.oxycblt.zefio.list.ListSettings
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaySong
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.util.Event
+import org.oxycblt.zefio.util.MutableEvent
+import org.oxycblt.zefio.util.logD
 
 /**
  * The ViewModel for managing the tab data and lists of the home view.

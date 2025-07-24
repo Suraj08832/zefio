@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * FsModule.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * FsModule.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.fs
+package org.oxycblt.zefio.music.fs
 
 import android.content.ContentResolver
 import android.content.Context
@@ -27,7 +27,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import org.oxycblt.auxio.util.getSystemServiceCompat
+import org.oxycblt.zefio.util.getSystemServiceCompat
 
 @Module
 @InstallIn(SingletonComponent::class)

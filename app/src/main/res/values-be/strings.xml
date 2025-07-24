@@ -123,7 +123,7 @@
     <string name="set_reindex">Абнавіць музыку</string>
     <string name="set_reindex_desc">Перазагрузіце музычную бібліятэку, выкарыстоўваючы па магчымасці кэшаваныя тэгі</string>
     <string name="set_rescan_desc">Ачысціце кэш тэгаў і цалкам перазагрузіце музычную бібліятэку (павольней, але больш поўна)</string>
-    <string name="err_no_perms">Auxio патрабуецца дазвол на чытанне вашай музычнай бібліятэкі</string>
+    <string name="err_no_perms">zefio патрабуецца дазвол на чытанне вашай музычнай бібліятэкі</string>
     <string name="err_no_music">Музыка не знойдзена</string>
     <string name="err_index_failed">Памылка загрузкі музыкі</string>
     <string name="err_no_dirs">Няма тэчак</string>
@@ -135,7 +135,7 @@
     <string name="desc_skip_next">Перайсці да наступнай песні</string>
     <string name="desc_skip_prev">Перайсці да апошняй песні</string>
     <string name="desc_change_repeat">Змяніць рэжым паўтору</string>
-    <string name="desc_auxio_icon">Значок Auxio</string>
+    <string name="desc_zefio_icon">Значок zefio</string>
     <string name="desc_shuffle">Ўключыце або выключыце перамешванне</string>
     <string name="desc_remove_song">Выдаліць гэтую песню з чаргі</string>
     <string name="desc_shuffle_all">Перамяшаць усе песні</string>

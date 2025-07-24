@@ -56,7 +56,7 @@
     <!-- Error Namespace | Error Labels -->
     <string name="err_no_music">Geen muziek aangetroffen</string>
     <string name="err_index_failed">Laden van muziek mislukt</string>
-    <string name="err_no_perms">Auxio heeft toestemming nodig om uw muziekbibliotheek te lezen</string>
+    <string name="err_no_perms">zefio heeft toestemming nodig om uw muziekbibliotheek te lezen</string>
     <string name="err_no_app">Geen app gevonden die deze taak kan uitvoeren</string>
     <string name="err_bad_dir">Deze map wordt niet ondersteund</string>
     <!-- Hint Namespace | EditText Hints -->
@@ -69,7 +69,7 @@
     <string name="desc_change_repeat">Wijzig herhaalmodus</string>
     <string name="desc_clear_search">Wis zoekopdracht</string>
     <string name="desc_music_dir_delete">Verwijder map</string>
-    <string name="desc_auxio_icon">Auxio icoon</string>
+    <string name="desc_zefio_icon">zefio icoon</string>
     <string name="desc_album_cover">Albumhoes voor %s</string>
     <string name="desc_artist_image">Artiest afbeelding voor %s</string>
     <string name="desc_genre_image">Genre afbeelding voor %s</string>

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * QueueAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * QueueAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.queue
+package org.oxycblt.zefio.playback.queue
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.LayerDrawable
@@ -26,18 +26,18 @@ import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.R as MR
 import com.google.android.material.shape.MaterialShapeDrawable
-import org.oxycblt.auxio.databinding.ItemEditableSongBinding
-import org.oxycblt.auxio.list.EditClickListListener
-import org.oxycblt.auxio.list.adapter.FlexibleListAdapter
-import org.oxycblt.auxio.list.adapter.PlayingIndicatorAdapter
-import org.oxycblt.auxio.list.recycler.MaterialDragCallback
-import org.oxycblt.auxio.list.recycler.SongViewHolder
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.ItemEditableSongBinding
+import org.oxycblt.zefio.list.EditClickListListener
+import org.oxycblt.zefio.list.adapter.FlexibleListAdapter
+import org.oxycblt.zefio.list.adapter.PlayingIndicatorAdapter
+import org.oxycblt.zefio.list.recycler.MaterialDragCallback
+import org.oxycblt.zefio.list.recycler.SongViewHolder
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [RecyclerView.Adapter] that shows an editable list of queue items.

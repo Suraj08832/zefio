@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaybackStateManager.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaybackStateManager.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,22 +16,22 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.state
+package org.oxycblt.zefio.playback.state
 
 import javax.inject.Inject
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.state.PlaybackStateManager.Listener
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.state.PlaybackStateManager.Listener
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
 
 /**
  * Core playback state controller class.
  *
- * Whereas other apps centralize the playback state around the MediaSession, Auxio does not, as
+ * Whereas other apps centralize the playback state around the MediaSession, zefio does not, as
  * MediaSession is poorly designed. This class instead ful-fills this role.
  *
  * This should ***NOT*** be used outside of the playback module.

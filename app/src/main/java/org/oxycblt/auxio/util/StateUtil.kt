@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * StateUtil.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * StateUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.util
+package org.oxycblt.zefio.util
 
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
@@ -32,7 +32,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeout
-import org.oxycblt.auxio.BuildConfig
+import org.oxycblt.zefio.BuildConfig
 
 /**
  * A wrapper around [StateFlow] exposing a one-time consumable event.

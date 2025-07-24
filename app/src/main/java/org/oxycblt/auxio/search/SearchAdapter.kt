@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * SearchAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * SearchAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,30 +16,30 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.search
+package org.oxycblt.zefio.search
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.list.BasicHeader
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.AlbumViewHolder
-import org.oxycblt.auxio.list.recycler.ArtistViewHolder
-import org.oxycblt.auxio.list.recycler.BasicHeaderViewHolder
-import org.oxycblt.auxio.list.recycler.DividerViewHolder
-import org.oxycblt.auxio.list.recycler.GenreViewHolder
-import org.oxycblt.auxio.list.recycler.PlaylistViewHolder
-import org.oxycblt.auxio.list.recycler.SongViewHolder
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.list.BasicHeader
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.AlbumViewHolder
+import org.oxycblt.zefio.list.recycler.ArtistViewHolder
+import org.oxycblt.zefio.list.recycler.BasicHeaderViewHolder
+import org.oxycblt.zefio.list.recycler.DividerViewHolder
+import org.oxycblt.zefio.list.recycler.GenreViewHolder
+import org.oxycblt.zefio.list.recycler.PlaylistViewHolder
+import org.oxycblt.zefio.list.recycler.SongViewHolder
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.util.logD
 
 /**
  * An adapter that displays search results.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * DeviceLibraryTest.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * DeviceLibraryTest.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.user
+package org.oxycblt.zefio.music.user
 
 import io.mockk.every
 import io.mockk.mockk
@@ -24,22 +24,22 @@ import io.mockk.verify
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Test
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.device.AlbumImpl
-import org.oxycblt.auxio.music.device.ArtistImpl
-import org.oxycblt.auxio.music.device.DeviceLibraryImpl
-import org.oxycblt.auxio.music.device.GenreImpl
-import org.oxycblt.auxio.music.device.SongImpl
-import org.oxycblt.auxio.music.fs.Components
-import org.oxycblt.auxio.music.fs.Path
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.device.AlbumImpl
+import org.oxycblt.zefio.music.device.ArtistImpl
+import org.oxycblt.zefio.music.device.DeviceLibraryImpl
+import org.oxycblt.zefio.music.device.GenreImpl
+import org.oxycblt.zefio.music.device.SongImpl
+import org.oxycblt.zefio.music.fs.Components
+import org.oxycblt.zefio.music.fs.Path
 
 class DeviceLibraryTest {
 
     @Test
     fun deviceLibrary_withSongs() {
-        val songUidA = Music.UID.auxio(MusicType.SONGS)
-        val songUidB = Music.UID.auxio(MusicType.SONGS)
+        val songUidA = Music.UID.zefio(MusicType.SONGS)
+        val songUidB = Music.UID.zefio(MusicType.SONGS)
         val songA =
             mockk<SongImpl> {
                 every { uid } returns songUidA
@@ -69,8 +69,8 @@ class DeviceLibraryTest {
 
     @Test
     fun deviceLibrary_withAlbums() {
-        val albumUidA = Music.UID.auxio(MusicType.ALBUMS)
-        val albumUidB = Music.UID.auxio(MusicType.ALBUMS)
+        val albumUidA = Music.UID.zefio(MusicType.ALBUMS)
+        val albumUidB = Music.UID.zefio(MusicType.ALBUMS)
         val albumA =
             mockk<AlbumImpl> {
                 every { uid } returns albumUidA
@@ -98,8 +98,8 @@ class DeviceLibraryTest {
 
     @Test
     fun deviceLibrary_withArtists() {
-        val artistUidA = Music.UID.auxio(MusicType.ARTISTS)
-        val artistUidB = Music.UID.auxio(MusicType.ARTISTS)
+        val artistUidA = Music.UID.zefio(MusicType.ARTISTS)
+        val artistUidB = Music.UID.zefio(MusicType.ARTISTS)
         val artistA =
             mockk<ArtistImpl> {
                 every { uid } returns artistUidA
@@ -128,8 +128,8 @@ class DeviceLibraryTest {
 
     @Test
     fun deviceLibrary_withGenres() {
-        val genreUidA = Music.UID.auxio(MusicType.GENRES)
-        val genreUidB = Music.UID.auxio(MusicType.GENRES)
+        val genreUidA = Music.UID.zefio(MusicType.GENRES)
+        val genreUidB = Music.UID.zefio(MusicType.GENRES)
         val genreA =
             mockk<GenreImpl> {
                 every { uid } returns genreUidA
@@ -159,13 +159,13 @@ class DeviceLibraryTest {
     fun deviceLibrary_equals() {
         val songA =
             mockk<SongImpl> {
-                every { uid } returns Music.UID.auxio(MusicType.SONGS)
+                every { uid } returns Music.UID.zefio(MusicType.SONGS)
                 every { path } returns Path(mockk(), Components.parseUnix("./"))
                 every { finalize() } returns this
             }
         val songB =
             mockk<SongImpl> {
-                every { uid } returns Music.UID.auxio(MusicType.SONGS)
+                every { uid } returns Music.UID.zefio(MusicType.SONGS)
                 every { path } returns Path(mockk(), Components.parseUnix("./"))
                 every { finalize() } returns this
             }

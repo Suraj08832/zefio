@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * BottomSheetContentBehavior.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * BottomSheetContentBehavior.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.util.AttributeSet
@@ -25,10 +25,10 @@ import android.view.WindowInsets
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.bottomsheet.BackportBottomSheetBehavior
 import kotlin.math.abs
-import org.oxycblt.auxio.util.coordinatorLayoutBehavior
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.replaceSystemBarInsetsCompat
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.util.coordinatorLayoutBehavior
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.replaceSystemBarInsetsCompat
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A behavior that automatically re-layouts and re-insets content to align with the parent layout's

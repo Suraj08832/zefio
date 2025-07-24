@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * SeparatorsDialog.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * SeparatorsDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.metadata
+package org.oxycblt.zefio.music.metadata
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,12 +25,12 @@ import androidx.core.view.children
 import com.google.android.material.checkbox.MaterialCheckBox
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogSeparatorsBinding
-import org.oxycblt.auxio.music.MusicSettings
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogSeparatorsBinding
+import org.oxycblt.zefio.music.MusicSettings
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.logW
 
 /**
  * A [ViewBindingMaterialDialogFragment] that allows the user to configure the separator characters

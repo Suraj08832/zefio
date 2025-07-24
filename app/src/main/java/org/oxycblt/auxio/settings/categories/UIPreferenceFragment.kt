@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * UIPreferenceFragment.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * UIPreferenceFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,20 +16,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings.categories
+package org.oxycblt.zefio.settings.categories
 
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.settings.BasePreferenceFragment
-import org.oxycblt.auxio.settings.ui.WrappedDialogPreference
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.util.isNight
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.navigateSafe
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.settings.BasePreferenceFragment
+import org.oxycblt.zefio.settings.ui.WrappedDialogPreference
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.util.isNight
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.navigateSafe
 
 /**
  * Display preferences.

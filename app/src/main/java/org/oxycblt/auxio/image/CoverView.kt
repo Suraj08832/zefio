@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * CoverView.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * CoverView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.image
+package org.oxycblt.zefio.image
 
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
@@ -47,24 +47,24 @@ import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.image.extractor.Cover
-import org.oxycblt.auxio.image.extractor.RoundedRectTransformation
-import org.oxycblt.auxio.image.extractor.SquareCropTransformation
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getColorCompat
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.getDrawableCompat
-import org.oxycblt.auxio.util.getInteger
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.image.extractor.Cover
+import org.oxycblt.zefio.image.extractor.RoundedRectTransformation
+import org.oxycblt.zefio.image.extractor.SquareCropTransformation
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getColorCompat
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.getDrawableCompat
+import org.oxycblt.zefio.util.getInteger
 
 /**
- * Auxio's extension of [ImageView] that enables cover art loading and playing indicator and
+ * zefio's extension of [ImageView] that enables cover art loading and playing indicator and
  * selection badge. In practice, it's three [ImageView]'s in a [FrameLayout] trenchcoat. By default,
  * all of this functionality is enabled. The playback indicator and selection badge selectively
  * disabled with the "playbackIndicatorEnabled" and "selectionBadgeEnabled" attributes, and image

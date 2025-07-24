@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * ArtistSongSortDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * ArtistSongSortDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,19 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.sort
+package org.oxycblt.zefio.detail.sort
 
 import android.os.Bundle
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.databinding.DialogSortBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.list.sort.SortDialog
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.DialogSortBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.list.sort.SortDialog
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [SortDialog] that controls the [Sort] of [DetailViewModel.artistSongSort].

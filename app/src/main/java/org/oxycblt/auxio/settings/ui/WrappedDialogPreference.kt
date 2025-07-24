@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * WrappedDialogPreference.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * WrappedDialogPreference.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings.ui
+package org.oxycblt.zefio.settings.ui
 
 import android.content.Context
 import android.util.AttributeSet

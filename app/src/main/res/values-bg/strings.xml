@@ -218,7 +218,7 @@
     <string name="set_reindex">Обновяване на музиката</string>
     <string name="err_no_music">Няма намерена музика</string>
     <string name="err_index_failed">Неуспешно зареждане на музика</string>
-    <string name="err_no_perms">Auxio се нуждае от разрешение, за да чете вашата музикална библиотека</string>
+    <string name="err_no_perms">zefio се нуждае от разрешение, за да чете вашата музикална библиотека</string>
     <string name="err_export_failed">Плейлиста не може да се експортира в този файл</string>
     <string name="err_no_app">Няма намерено приложение, което да може да се справи с тази задача</string>
     <string name="err_no_dirs">Няма папки</string>
@@ -239,7 +239,7 @@
     <string name="desc_music_dir_delete">Премахване на папка</string>
     <string name="err_import_failed">Не може да се импортира плейлист от този файл</string>
     <string name="err_bad_dir">Тази папка не се поддържа</string>
-    <string name="desc_auxio_icon">Auxio икина</string>
+    <string name="desc_zefio_icon">zefio икина</string>
     <string name="desc_no_cover">Обложка на албум</string>
     <string name="set_dirs_mode_include">Включете</string>
     <string name="desc_album_cover">Обложка на албум за %s</string>

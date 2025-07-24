@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * EdgeFrameLayout.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * EdgeFrameLayout.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import android.content.Context
 import android.util.AttributeSet
@@ -24,7 +24,7 @@ import android.view.WindowInsets
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.core.view.updatePadding
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A [FrameLayout] that automatically applies bottom insets.

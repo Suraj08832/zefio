@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * SongDetailDialog.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * SongDetailDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail
+package org.oxycblt.zefio.detail
 
 import android.content.Context
 import android.os.Bundle
@@ -27,22 +27,22 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogSongDetailBinding
-import org.oxycblt.auxio.detail.list.SongProperty
-import org.oxycblt.auxio.detail.list.SongPropertyAdapter
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.info.Name
-import org.oxycblt.auxio.music.metadata.AudioProperties
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.playback.formatDurationMs
-import org.oxycblt.auxio.playback.replaygain.formatDb
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.concatLocalized
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogSongDetailBinding
+import org.oxycblt.zefio.detail.list.SongProperty
+import org.oxycblt.zefio.detail.list.SongPropertyAdapter
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.info.Name
+import org.oxycblt.zefio.music.metadata.AudioProperties
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.playback.formatDurationMs
+import org.oxycblt.zefio.playback.replaygain.formatDb
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.concatLocalized
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewBindingMaterialDialogFragment] that shows information about a Song.

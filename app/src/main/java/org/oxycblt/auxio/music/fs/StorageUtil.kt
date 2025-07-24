@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * StorageUtil.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * StorageUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.fs
+package org.oxycblt.zefio.music.fs
 
 import android.annotation.SuppressLint
 import android.content.ContentResolver
@@ -30,13 +30,13 @@ import android.os.storage.StorageManager
 import android.os.storage.StorageVolume
 import android.provider.MediaStore
 import java.lang.reflect.Method
-import org.oxycblt.auxio.util.lazyReflectedMethod
+import org.oxycblt.zefio.util.lazyReflectedMethod
 
 // --- MEDIASTORE UTILITIES ---
 
 /**
  * Get a content resolver that will not mangle MediaStore queries on certain devices. See
- * https://github.com/OxygenCobalt/Auxio/issues/50 for more info.
+ * https://github.com/OxygenCobalt/zefio/issues/50 for more info.
  */
 val Context.contentResolverSafe: ContentResolver
     get() = applicationContext.contentResolver
@@ -219,7 +219,7 @@ val StorageVolume.mediaStoreVolumeNameCompat: String?
         } else {
             // Replicate API: primary_external if primary storage, lowercase uuid otherwise
             if (isPrimaryCompat) {
-                // "primary_external" is used in all versions that Auxio supports, is safe to use.
+                // "primary_external" is used in all versions that zefio supports, is safe to use.
                 @Suppress("NewApi") MediaStore.VOLUME_EXTERNAL_PRIMARY
             } else {
                 uuidCompat?.lowercase()

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * CoverExtractor.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * CoverExtractor.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.image.extractor
+package org.oxycblt.zefio.image.extractor
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -50,10 +50,10 @@ import kotlinx.coroutines.guava.asDeferred
 import kotlinx.coroutines.withContext
 import okio.buffer
 import okio.source
-import org.oxycblt.auxio.image.CoverMode
-import org.oxycblt.auxio.image.ImageSettings
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.image.CoverMode
+import org.oxycblt.zefio.image.ImageSettings
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.util.logE
 
 /**
  * Provides functionality for extracting album cover information. Meant for internal use only.

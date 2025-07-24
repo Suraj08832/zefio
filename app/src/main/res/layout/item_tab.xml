@@ -22,13 +22,13 @@
         android:focusable="false"
         android:paddingStart="@dimen/spacing_medium"
         android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+        android:textAppearance="@style/TextAppearance.zefio.BodyLarge"
         tools:ignore="RtlSymmetry,contentDescription"
         tools:text="Artists" />
 
-    <org.oxycblt.auxio.ui.RippleFixMaterialButton
+    <org.oxycblt.zefio.ui.RippleFixMaterialButton
         android:id="@+id/tab_drag_handle"
-        style="@style/Widget.Auxio.Button.Icon.Small"
+        style="@style/Widget.zefio.Button.Icon.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/spacing_mid_large"

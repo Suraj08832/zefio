@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * M3U.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * M3U.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.external
+package org.oxycblt.zefio.music.external
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -26,15 +26,15 @@ import java.io.InputStream
 import java.io.InputStreamReader
 import java.io.OutputStream
 import javax.inject.Inject
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.fs.Components
-import org.oxycblt.auxio.music.fs.Path
-import org.oxycblt.auxio.music.fs.Volume
-import org.oxycblt.auxio.music.fs.VolumeManager
-import org.oxycblt.auxio.music.metadata.correctWhitespace
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.fs.Components
+import org.oxycblt.zefio.music.fs.Path
+import org.oxycblt.zefio.music.fs.Volume
+import org.oxycblt.zefio.music.fs.VolumeManager
+import org.oxycblt.zefio.music.metadata.correctWhitespace
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * Minimal M3U file format implementation.

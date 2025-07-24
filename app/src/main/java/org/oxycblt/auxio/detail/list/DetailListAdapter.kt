@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * DetailListAdapter.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * DetailListAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.view.View
 import android.view.ViewGroup
@@ -24,20 +24,20 @@ import androidx.annotation.StringRes
 import androidx.appcompat.widget.TooltipCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.databinding.ItemSortHeaderBinding
-import org.oxycblt.auxio.list.BasicHeader
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.Header
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.BasicHeaderViewHolder
-import org.oxycblt.auxio.list.recycler.DividerViewHolder
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.databinding.ItemSortHeaderBinding
+import org.oxycblt.zefio.list.BasicHeader
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.Header
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.BasicHeaderViewHolder
+import org.oxycblt.zefio.list.recycler.DividerViewHolder
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [RecyclerView.Adapter] that implements shared behavior between lists of child items in the

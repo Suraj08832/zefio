@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * SearchViewModel.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * SearchViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.search
+package org.oxycblt.zefio.search
 
 import androidx.annotation.IdRes
 import androidx.lifecycle.ViewModel
@@ -28,19 +28,19 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.yield
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.BasicHeader
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.device.DeviceLibrary
-import org.oxycblt.auxio.music.user.UserLibrary
-import org.oxycblt.auxio.playback.PlaySong
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.BasicHeader
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.device.DeviceLibrary
+import org.oxycblt.zefio.music.user.UserLibrary
+import org.oxycblt.zefio.playback.PlaySong
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [ViewModel] that keeps performs search operations and tracks their results.

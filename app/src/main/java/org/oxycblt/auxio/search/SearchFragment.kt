@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * SearchFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * SearchFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.search
+package org.oxycblt.zefio.search
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -34,38 +34,38 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.transition.MaterialSharedAxis
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentSearchBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.detail.Show
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.Header
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.ListFragment
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.list.menu.Menu
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.PlaylistDecision
-import org.oxycblt.auxio.music.PlaylistMessage
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.external.M3U
-import org.oxycblt.auxio.playback.PlaybackDecision
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.util.collect
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.getSystemServiceCompat
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
-import org.oxycblt.auxio.util.navigateSafe
-import org.oxycblt.auxio.util.setFullWidthLookup
-import org.oxycblt.auxio.util.showToast
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentSearchBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.detail.Show
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.Header
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.ListFragment
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.list.menu.Menu
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.PlaylistDecision
+import org.oxycblt.zefio.music.PlaylistMessage
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.external.M3U
+import org.oxycblt.zefio.playback.PlaybackDecision
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.util.collect
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.getSystemServiceCompat
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
+import org.oxycblt.zefio.util.navigateSafe
+import org.oxycblt.zefio.util.setFullWidthLookup
+import org.oxycblt.zefio.util.showToast
 
 /**
  * The [ListFragment] providing search functionality for the music library.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * NewPlaylistFooterAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * NewPlaylistFooterAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,14 +16,14 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.decision
+package org.oxycblt.zefio.music.decision
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.databinding.ItemNewPlaylistChoiceBinding
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemNewPlaylistChoiceBinding
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A purely-visual [RecyclerView.Adapter] that acts as a footer providing a "New Playlist" choice in

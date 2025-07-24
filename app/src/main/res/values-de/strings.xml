@@ -66,7 +66,7 @@
     <!-- Error Namespace | Error Labels -->
     <string name="err_no_music">Keine Musik gefunden</string>
     <string name="err_index_failed">Laden der Musik fehlgeschlagen</string>
-    <string name="err_no_perms">Auxio benötigt die Berechtigung, um deine Musikbibliothek zu lesen</string>
+    <string name="err_no_perms">zefio benötigt die Berechtigung, um deine Musikbibliothek zu lesen</string>
     <string name="err_no_app">Es konnte keine App gefunden werden, die diese Aufgabe übernehmen kann</string>
     <string name="err_bad_dir">Das Verzeichnis wird nicht unterstützt</string>
     <!-- Hint Namespace | EditText Hints -->
@@ -78,7 +78,7 @@
     <string name="desc_skip_next">Zum nächsten Lied springen</string>
     <string name="desc_change_repeat">Art der Wiederholung ändern</string>
     <string name="desc_clear_search">Suchanfrage löschen</string>
-    <string name="desc_auxio_icon">Auxio-Icon</string>
+    <string name="desc_zefio_icon">zefio-Icon</string>
     <string name="desc_album_cover">Albumcover für %s</string>
     <string name="desc_artist_image">Künstlerbild für %s</string>
     <string name="desc_genre_image">Genrebild für %s</string>

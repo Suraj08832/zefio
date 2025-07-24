@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * QueueDragCallback.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * QueueDragCallback.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,11 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.queue
+package org.oxycblt.zefio.playback.queue
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.list.recycler.MaterialDragCallback
+import org.oxycblt.zefio.list.recycler.MaterialDragCallback
 
 /**
  * A highly customized [ItemTouchHelper.Callback] that enables some extra eye candy in the queue UI,

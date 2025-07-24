@@ -75,7 +75,7 @@
     <!-- Error Namespace | Error Labels -->
     <string name="err_no_music">No se ha encontrado música</string>
     <string name="err_index_failed">Falló la carga de música</string>
-    <string name="err_no_perms">Auxio necesita permiso para leer su biblioteca de música</string>
+    <string name="err_no_perms">zefio necesita permiso para leer su biblioteca de música</string>
     <string name="err_no_app">No se encontró ninguna aplicación que pueda manejar esta tarea</string>
     <string name="err_bad_dir">Directorio no soportado</string>
     <!-- Hint Namespace | EditText Hints -->
@@ -93,7 +93,7 @@
     <string name="desc_tab_handle">Mover pestaña</string>
     <string name="desc_clear_search">Borrar búsqueda</string>
     <string name="desc_music_dir_delete">Quitar carpeta</string>
-    <string name="desc_auxio_icon">Icono de Auxio</string>
+    <string name="desc_zefio_icon">Icono de zefio</string>
     <string name="desc_no_cover">Carátula de álbum</string>
     <string name="desc_album_cover">Carátula de álbum para %s</string>
     <string name="desc_artist_image">Imagen de artista para %s</string>

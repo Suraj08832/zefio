@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * WidgetProvider.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * WidgetProvider.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.widgets
+package org.oxycblt.zefio.widgets
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
@@ -28,16 +28,16 @@ import android.os.Bundle
 import android.util.SizeF
 import android.view.View
 import android.widget.RemoteViews
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.playback.service.PlaybackActions
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.ui.UISettingsImpl
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
-import org.oxycblt.auxio.util.newBroadcastPendingIntent
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.playback.service.PlaybackActions
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.ui.UISettingsImpl
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
+import org.oxycblt.zefio.util.newBroadcastPendingIntent
 
 /**
  * The [AppWidgetProvider] for the "Now Playing" widget. This widget shows the current playback

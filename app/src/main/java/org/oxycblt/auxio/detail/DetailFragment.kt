@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * DetailFragment.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * DetailFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail
+package org.oxycblt.zefio.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,20 +28,20 @@ import com.google.android.material.transition.MaterialSharedAxis
 import kotlin.math.abs
 import kotlin.math.max
 import kotlin.math.min
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentDetailBinding
-import org.oxycblt.auxio.detail.list.DetailListAdapter
-import org.oxycblt.auxio.list.Divider
-import org.oxycblt.auxio.list.Header
-import org.oxycblt.auxio.list.ListFragment
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.overrideOnOverflowMenuClick
-import org.oxycblt.auxio.util.setFullWidthLookup
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentDetailBinding
+import org.oxycblt.zefio.detail.list.DetailListAdapter
+import org.oxycblt.zefio.list.Divider
+import org.oxycblt.zefio.list.Header
+import org.oxycblt.zefio.list.ListFragment
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.overrideOnOverflowMenuClick
+import org.oxycblt.zefio.util.setFullWidthLookup
 
 abstract class DetailFragment<P : MusicParent, C : Music> :
     ListFragment<C, FragmentDetailBinding>(),

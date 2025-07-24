@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaylistDetailListAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaylistDetailListAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.LayerDrawable
@@ -29,24 +29,24 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.R as MR
 import com.google.android.material.shape.MaterialShapeDrawable
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.databinding.ItemEditHeaderBinding
-import org.oxycblt.auxio.databinding.ItemEditableSongBinding
-import org.oxycblt.auxio.list.EditableListListener
-import org.oxycblt.auxio.list.Header
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.adapter.PlayingIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.MaterialDragCallback
-import org.oxycblt.auxio.list.recycler.SongViewHolder
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.databinding.ItemEditHeaderBinding
+import org.oxycblt.zefio.databinding.ItemEditableSongBinding
+import org.oxycblt.zefio.list.EditableListListener
+import org.oxycblt.zefio.list.Header
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.adapter.PlayingIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.MaterialDragCallback
+import org.oxycblt.zefio.list.recycler.SongViewHolder
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [DetailListAdapter] implementing the header, sub-items, and editing state for the [Playlist]

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * CoordinatorAppBarLayout.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * CoordinatorAppBarLayout.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.util.AttributeSet
@@ -29,8 +29,8 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
-import org.oxycblt.auxio.util.coordinatorLayoutBehavior
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.util.coordinatorLayoutBehavior
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [AppBarLayout] that resolves two issues with the default implementation:

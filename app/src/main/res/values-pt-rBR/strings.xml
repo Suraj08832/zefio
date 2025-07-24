@@ -95,7 +95,7 @@
     <string name="set_dirs_mode_exclude">Excluir</string>
     <string name="set_dirs_mode_exclude_desc">As músicas <b>não</b> serão carregadas das pastas que você adicionar.</string>
     <string name="set_dirs_mode">Modo</string>
-    <string name="err_no_perms">O Auxio precisa de permissão para ler sua biblioteca de músicas</string>
+    <string name="err_no_perms">O zefio precisa de permissão para ler sua biblioteca de músicas</string>
     <string name="info_app_desc">Um reprodutor de música simples e racional para android.</string>
     <string name="lng_indexing">Carregando a sua biblioteca de músicas…</string>
     <string name="lbl_date">Ano</string>
@@ -208,7 +208,7 @@
     <string name="lbl_live_group">Ao vivo</string>
     <string name="desc_exit">Parar reprodução</string>
     <string name="fmt_sample_rate">%d Hz</string>
-    <string name="desc_auxio_icon">Ícone do Auxio</string>
+    <string name="desc_zefio_icon">Ícone do zefio</string>
     <string name="fmt_db_pos">+%.1f dB</string>
     <string name="fmt_db_neg">-%.1f dB</string>
     <string name="fmt_bitrate">%d kbps</string>

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AccentCustomizeDialog.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * AccentCustomizeDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui.accent
+package org.oxycblt.zefio.ui.accent
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,14 +24,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogAccentBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogAccentBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A [ViewBindingMaterialDialogFragment] that allows the user to configure the current [Accent].

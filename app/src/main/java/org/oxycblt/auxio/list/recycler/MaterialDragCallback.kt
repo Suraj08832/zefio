@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * MaterialDragCallback.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * MaterialDragCallback.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.recycler
+package org.oxycblt.zefio.list.recycler
 
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
@@ -30,11 +30,11 @@ import kotlin.math.abs
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.math.sign
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.recycler.MaterialDragCallback.ViewHolder
-import org.oxycblt.auxio.util.getDimen
-import org.oxycblt.auxio.util.getInteger
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.recycler.MaterialDragCallback.ViewHolder
+import org.oxycblt.zefio.util.getDimen
+import org.oxycblt.zefio.util.getInteger
+import org.oxycblt.zefio.util.logD
 
 /**
  * A highly customized [ItemTouchHelper.Callback] that enables some extra eye candy in editable UIs,

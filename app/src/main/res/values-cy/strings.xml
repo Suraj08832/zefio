@@ -204,7 +204,7 @@
     <string name="set_pre_amp_with">Addasiad gyda thagiau</string>
     <string name="err_no_music">Ni chanfuwyd cerddoriaeth</string>
     <string name="err_index_failed">Methwyd llwytho cerddoriaeth</string>
-    <string name="err_no_perms">Mae ar Auxio angen caniatâd i ddarllen eich llyfrgell gerddoriaeth</string>
+    <string name="err_no_perms">Mae ar zefio angen caniatâd i ddarllen eich llyfrgell gerddoriaeth</string>
     <string name="err_no_app">Methwyd dod o hyd ap sydd yn gallu gwneud y tasg hon</string>
     <string name="err_no_dirs">Dim ffolderi</string>
     <string name="desc_skip_next">Symud i\'r gân nesaf</string>
@@ -238,7 +238,7 @@
     <string name="desc_tab_handle">Symud y tab hwn</string>
     <string name="desc_clear_search">Clirio\'r ymholiad chwilio</string>
     <string name="desc_music_dir_delete">Tynnu ffolder</string>
-    <string name="desc_auxio_icon">Eicon Auxio</string>
+    <string name="desc_zefio_icon">Eicon zefio</string>
     <string name="desc_album_cover">Clawr albwm %s</string>
     <string name="desc_artist_image">Llun artist %s</string>
     <string name="desc_genre_image">Llun genre %s</string>

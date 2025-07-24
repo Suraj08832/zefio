@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * Components.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * Components.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.image.extractor
+package org.oxycblt.zefio.image.extractor
 
 import coil.ImageLoader
 import coil.fetch.Fetcher

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * WidgetComponent.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * WidgetComponent.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.widgets
+package org.oxycblt.zefio.widgets
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -25,20 +25,20 @@ import coil.request.ImageRequest
 import coil.size.Size
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.image.BitmapProvider
-import org.oxycblt.auxio.image.ImageSettings
-import org.oxycblt.auxio.image.extractor.RoundedRectTransformation
-import org.oxycblt.auxio.image.extractor.SquareCropTransformation
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.Progression
-import org.oxycblt.auxio.playback.state.QueueChange
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.image.BitmapProvider
+import org.oxycblt.zefio.image.ImageSettings
+import org.oxycblt.zefio.image.extractor.RoundedRectTransformation
+import org.oxycblt.zefio.image.extractor.SquareCropTransformation
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.Progression
+import org.oxycblt.zefio.playback.state.QueueChange
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.logD
 
 /**
  * A component that manages the "Now Playing" state. This is kept separate from the [WidgetProvider]

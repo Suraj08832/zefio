@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * BitmapProvider.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * BitmapProvider.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.image
+package org.oxycblt.zefio.image
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -27,7 +27,7 @@ import coil.request.ImageRequest
 import coil.size.Size
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.music.Song
+import org.oxycblt.zefio.music.Song
 
 /**
  * A utility to provide bitmaps in a race-less manner.

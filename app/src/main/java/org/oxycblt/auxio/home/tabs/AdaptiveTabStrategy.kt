@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * AdaptiveTabStrategy.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * AdaptiveTabStrategy.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,13 +16,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.tabs
+package org.oxycblt.zefio.home.tabs
 
 import android.content.Context
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.MusicType
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.MusicType
 
 /**
  * A [TabLayoutMediator.TabConfigurationStrategy] that uses larger/smaller tab configurations

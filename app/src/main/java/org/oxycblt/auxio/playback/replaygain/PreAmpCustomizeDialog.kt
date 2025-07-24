@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * PreAmpCustomizeDialog.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * PreAmpCustomizeDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.replaygain
+package org.oxycblt.zefio.playback.replaygain
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,11 +24,11 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogPreAmpBinding
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogPreAmpBinding
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.logD
 
 /**
  * aa [ViewBindingMaterialDialogFragment] that allows user configuration of the current

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * IntegerTable.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * IntegerTable.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package org.oxycblt.zefio
 
 /**
  * A table containing all of the magic integer codes that the codebase has currently reserved. May
@@ -59,9 +59,9 @@ object IntegerTable {
     const val INDEXER_NOTIFICATION_CODE = 0xA0A1
     /** MainActivity Intent request code */
     const val REQUEST_CODE = 0xA0C0
-    /** Activity AuxioService Start ID */
+    /** Activity zefioService Start ID */
     const val START_ID_ACTIVITY = 0xA050
-    /** Tasker AuxioService Start ID */
+    /** Tasker zefioService Start ID */
     const val START_ID_TASKER = 0xA051
     /** RepeatMode.NONE */
     const val REPEAT_MODE_NONE = 0xA100

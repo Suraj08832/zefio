@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * HomeSettings.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * HomeSettings.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import android.content.Context
 import androidx.core.content.edit
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.home.tabs.Tab
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.settings.Settings
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.home.tabs.Tab
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.settings.Settings
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * User configuration specific to the home UI.
@@ -101,6 +101,6 @@ class HomeSettingsImpl @Inject constructor(@ApplicationContext context: Context)
     }
 
     companion object {
-        const val OLD_KEY_LIB_TABS = "auxio_lib_tabs"
+        const val OLD_KEY_LIB_TABS = "zefio_lib_tabs"
     }
 }

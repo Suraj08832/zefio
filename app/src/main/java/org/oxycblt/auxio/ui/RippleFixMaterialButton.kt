@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * RippleFixMaterialButton.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * RippleFixMaterialButton.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,14 +16,14 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.annotation.AttrRes
 import com.google.android.material.R
 import com.google.android.material.button.MaterialButton
-import org.oxycblt.auxio.util.fixDoubleRipple
+import org.oxycblt.zefio.util.fixDoubleRipple
 
 /**
  * Fixes an issue where double ripples appear on [MaterialButton] from AppCompat 1.5 afterwards due

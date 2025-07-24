@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PersistenceDatabase.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PersistenceDatabase.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.persist
+package org.oxycblt.zefio.playback.persist
 
 import androidx.room.Dao
 import androidx.room.Database
@@ -28,8 +28,8 @@ import androidx.room.Query
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.playback.state.RepeatMode
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.playback.state.RepeatMode
 
 /**
  * Provides raw access to the database storing the persisted playback state.

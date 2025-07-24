@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * MediaSessionPlayer.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * MediaSessionPlayer.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import android.content.Context
 import android.os.Bundle
@@ -33,23 +33,23 @@ import androidx.media3.common.PlaybackParameters
 import androidx.media3.common.Player
 import androidx.media3.common.TrackSelectionParameters
 import java.lang.Exception
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.service.MediaSessionUID
-import org.oxycblt.auxio.music.service.toSong
-import org.oxycblt.auxio.playback.state.PlaybackCommand
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.playback.state.ShuffleMode
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.service.MediaSessionUID
+import org.oxycblt.zefio.music.service.toSong
+import org.oxycblt.zefio.playback.state.PlaybackCommand
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.playback.state.ShuffleMode
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
 
 /**
  * A thin wrapper around the player instance that drastically reduces the command surface and

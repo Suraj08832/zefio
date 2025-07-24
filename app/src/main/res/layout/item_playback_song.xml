@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.oxycblt.auxio.image.CoverView
+    <org.oxycblt.zefio.image.CoverView
         android:id="@+id/playback_cover"
-        style="@style/Widget.Auxio.Image.Full"
+        style="@style/Widget.zefio.Image.Full"
         android:layout_margin="@dimen/spacing_medium"
         app:enablePlaybackIndicator="false"
         app:enableSelectionBadge="false"
@@ -32,21 +32,21 @@
 
         <TextView
             android:id="@+id/playback_song"
-            style="@style/Widget.Auxio.TextView.Primary"
+            style="@style/Widget.zefio.TextView.Primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Song Name" />
 
         <TextView
             android:id="@+id/playback_artist"
-            style="@style/Widget.Auxio.TextView.Secondary.Marquee"
+            style="@style/Widget.zefio.TextView.Secondary.Marquee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Artist Name" />
 
         <TextView
             android:id="@+id/playback_album"
-            style="@style/Widget.Auxio.TextView.Secondary.Marquee"
+            style="@style/Widget.zefio.TextView.Secondary.Marquee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Album Name" />

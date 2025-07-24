@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MusicRepository.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MusicRepository.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music
+package org.oxycblt.zefio.music
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -33,20 +33,20 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeout
 import kotlinx.coroutines.yield
-import org.oxycblt.auxio.music.cache.CacheRepository
-import org.oxycblt.auxio.music.device.DeviceLibrary
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.music.fs.MediaStoreExtractor
-import org.oxycblt.auxio.music.info.Name
-import org.oxycblt.auxio.music.metadata.Separators
-import org.oxycblt.auxio.music.metadata.TagExtractor
-import org.oxycblt.auxio.music.user.MutableUserLibrary
-import org.oxycblt.auxio.music.user.UserLibrary
-import org.oxycblt.auxio.util.DEFAULT_TIMEOUT
-import org.oxycblt.auxio.util.forEachWithTimeout
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.music.cache.CacheRepository
+import org.oxycblt.zefio.music.device.DeviceLibrary
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.music.fs.MediaStoreExtractor
+import org.oxycblt.zefio.music.info.Name
+import org.oxycblt.zefio.music.metadata.Separators
+import org.oxycblt.zefio.music.metadata.TagExtractor
+import org.oxycblt.zefio.music.user.MutableUserLibrary
+import org.oxycblt.zefio.music.user.UserLibrary
+import org.oxycblt.zefio.util.DEFAULT_TIMEOUT
+import org.oxycblt.zefio.util.forEachWithTimeout
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.logW
 
 /**
  * Primary manager of music information and loading.
@@ -381,7 +381,7 @@ constructor(
                 Name.Known.SimpleFactory
             }
 
-        // Begin with querying MediaStore and the music cache. The former is needed for Auxio
+        // Begin with querying MediaStore and the music cache. The former is needed for zefio
         // to figure out what songs are (probably) on the device, and the latter will be needed
         // for discovery (described later). These have no shared state, so they are done in
         // parallel.
@@ -415,7 +415,7 @@ constructor(
         val query = mediaStoreQueryJob.await().getOrThrow()
 
         // We now have all the information required to start the "discovery" process. This
-        // is the point at which Auxio starts scanning each file given from MediaStore and
+        // is the point at which zefio starts scanning each file given from MediaStore and
         // transforming it into a music library. MediaStore normally
         logD("Starting discovery")
         val incompleteSongs = Channel<RawSong>(Channel.UNLIMITED) // Not fully populated w/metadata

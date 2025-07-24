@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * PlayFromGenreDialog.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * PlayFromGenreDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.decision
+package org.oxycblt.zefio.playback.decision
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,17 +27,17 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogMusicChoicesBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogMusicChoicesBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A picker [ViewBindingMaterialDialogFragment] intended for when [Genre] playback is ambiguous.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * DeviceLibrary.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * DeviceLibrary.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,28 +16,28 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.device
+package org.oxycblt.zefio.music.device
 
 import android.content.Context
 import android.net.Uri
 import android.provider.OpenableColumns
 import javax.inject.Inject
 import kotlinx.coroutines.channels.Channel
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.fs.Path
-import org.oxycblt.auxio.music.fs.contentResolverSafe
-import org.oxycblt.auxio.music.fs.useQuery
-import org.oxycblt.auxio.music.info.Name
-import org.oxycblt.auxio.music.metadata.Separators
-import org.oxycblt.auxio.util.forEachWithTimeout
-import org.oxycblt.auxio.util.logW
-import org.oxycblt.auxio.util.sendWithTimeout
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.fs.Path
+import org.oxycblt.zefio.music.fs.contentResolverSafe
+import org.oxycblt.zefio.music.fs.useQuery
+import org.oxycblt.zefio.music.info.Name
+import org.oxycblt.zefio.music.metadata.Separators
+import org.oxycblt.zefio.util.forEachWithTimeout
+import org.oxycblt.zefio.util.logW
+import org.oxycblt.zefio.util.sendWithTimeout
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * Organized music library information obtained from device storage.

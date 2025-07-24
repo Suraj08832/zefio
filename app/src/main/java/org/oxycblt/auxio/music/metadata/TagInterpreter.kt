@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * TagInterpreter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * TagInterpreter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.metadata
+package org.oxycblt.zefio.music.metadata
 
 import androidx.core.text.isDigitsOnly
 import androidx.media3.exoplayer.MetadataRetriever
 import androidx.media3.exoplayer.source.TrackGroupArray
 import javax.inject.Inject
 import kotlin.math.min
-import org.oxycblt.auxio.image.extractor.CoverExtractor
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.music.info.Date
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.nonZeroOrNull
+import org.oxycblt.zefio.image.extractor.CoverExtractor
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.music.info.Date
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.nonZeroOrNull
 
 /**
  * An processing abstraction over the [MetadataRetriever] and [TextTags] workflow that operates on

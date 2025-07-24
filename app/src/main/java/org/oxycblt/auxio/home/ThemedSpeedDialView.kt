@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2018 Auxio Project
- * ThemedSpeedDialView.kt is part of Auxio.
+ * Copyright (c) 2018 zefio Project
+ * ThemedSpeedDialView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -48,10 +48,10 @@ import com.leinardi.android.speeddial.SpeedDialActionItem
 import com.leinardi.android.speeddial.SpeedDialView
 import kotlin.math.roundToInt
 import kotlinx.parcelize.Parcelize
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getDimen
-import org.oxycblt.auxio.util.getDimenPixels
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getDimen
+import org.oxycblt.zefio.util.getDimenPixels
 
 /**
  * Customized Speed Dial view with some bug fixes and Material 3 theming.
@@ -254,7 +254,7 @@ class ThemedSpeedDialView : SpeedDialView {
                     }
                 foreground = null
                 (getChildAt(0) as TextView).apply {
-                    TextViewCompat.setTextAppearance(this, R.style.TextAppearance_Auxio_LabelLarge)
+                    TextViewCompat.setTextAppearance(this, R.style.TextAppearance_zefio_LabelLarge)
                 }
             }
         }

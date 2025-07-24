@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SongSortDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SongSortDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,13 +16,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.sort
+package org.oxycblt.zefio.home.sort
 
 import androidx.fragment.app.activityViewModels
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.home.HomeViewModel
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.list.sort.SortDialog
+import org.oxycblt.zefio.home.HomeViewModel
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.list.sort.SortDialog
 
 /**
  * A [SortDialog] that controls the [Sort] of [HomeViewModel.songList].

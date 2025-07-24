@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * DeviceMusicImpl.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * DeviceMusicImpl.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,33 +16,33 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.device
+package org.oxycblt.zefio.music.device
 
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.image.extractor.Cover
-import org.oxycblt.auxio.image.extractor.ParentCover
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.fs.MimeType
-import org.oxycblt.auxio.music.fs.toAlbumCoverUri
-import org.oxycblt.auxio.music.fs.toAudioUri
-import org.oxycblt.auxio.music.fs.toSongCoverUri
-import org.oxycblt.auxio.music.info.Date
-import org.oxycblt.auxio.music.info.Disc
-import org.oxycblt.auxio.music.info.Name
-import org.oxycblt.auxio.music.info.ReleaseType
-import org.oxycblt.auxio.music.metadata.Separators
-import org.oxycblt.auxio.music.metadata.parseId3GenreNames
-import org.oxycblt.auxio.playback.replaygain.ReplayGainAdjustment
-import org.oxycblt.auxio.util.positiveOrNull
-import org.oxycblt.auxio.util.toUuidOrNull
-import org.oxycblt.auxio.util.unlikelyToBeNull
-import org.oxycblt.auxio.util.update
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.image.extractor.Cover
+import org.oxycblt.zefio.image.extractor.ParentCover
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.fs.MimeType
+import org.oxycblt.zefio.music.fs.toAlbumCoverUri
+import org.oxycblt.zefio.music.fs.toAudioUri
+import org.oxycblt.zefio.music.fs.toSongCoverUri
+import org.oxycblt.zefio.music.info.Date
+import org.oxycblt.zefio.music.info.Disc
+import org.oxycblt.zefio.music.info.Name
+import org.oxycblt.zefio.music.info.ReleaseType
+import org.oxycblt.zefio.music.metadata.Separators
+import org.oxycblt.zefio.music.metadata.parseId3GenreNames
+import org.oxycblt.zefio.playback.replaygain.ReplayGainAdjustment
+import org.oxycblt.zefio.util.positiveOrNull
+import org.oxycblt.zefio.util.toUuidOrNull
+import org.oxycblt.zefio.util.unlikelyToBeNull
+import org.oxycblt.zefio.util.update
 
 /**
  * Library-backed implementation of [Song].
@@ -60,7 +60,7 @@ class SongImpl(
     override val uid =
         // Attempt to use a MusicBrainz ID first before falling back to a hashed UID.
         rawSong.musicBrainzId?.toUuidOrNull()?.let { Music.UID.musicBrainz(MusicType.SONGS, it) }
-            ?: Music.UID.auxio(MusicType.SONGS) {
+            ?: Music.UID.zefio(MusicType.SONGS) {
                 // Song UIDs are based on the raw data without parsing so that they remain
                 // consistent across music setting changes. Parents are not held up to the
                 // same standard since grouping is already inherently linked to settings.
@@ -297,7 +297,7 @@ class AlbumImpl(
     override val uid =
         // Attempt to use a MusicBrainz ID first before falling back to a hashed UID.
         rawAlbum.musicBrainzId?.let { Music.UID.musicBrainz(MusicType.ALBUMS, it) }
-            ?: Music.UID.auxio(MusicType.ALBUMS) {
+            ?: Music.UID.zefio(MusicType.ALBUMS) {
                 // Hash based on only names despite the presence of a date to increase stability.
                 // I don't know if there is any situation where an artist will have two albums with
                 // the exact same name, but if there is, I would love to know.
@@ -428,7 +428,7 @@ class ArtistImpl(
     override val uid =
         // Attempt to use a MusicBrainz ID first before falling back to a hashed UID.
         rawArtist.musicBrainzId?.let { Music.UID.musicBrainz(MusicType.ARTISTS, it) }
-            ?: Music.UID.auxio(MusicType.ARTISTS) { update(rawArtist.name) }
+            ?: Music.UID.zefio(MusicType.ARTISTS) { update(rawArtist.name) }
     override val name =
         rawArtist.name?.let { nameFactory.parse(it, rawArtist.sortName) }
             ?: Name.Unknown(R.string.def_artist)
@@ -547,7 +547,7 @@ class GenreImpl(
 ) : Genre {
     private val rawGenre = grouping.raw.inner
 
-    override val uid = Music.UID.auxio(MusicType.GENRES) { update(rawGenre.name) }
+    override val uid = Music.UID.zefio(MusicType.GENRES) { update(rawGenre.name) }
     override val name =
         rawGenre.name?.let { nameFactory.parse(it, rawGenre.name) }
             ?: Name.Unknown(R.string.def_genre)

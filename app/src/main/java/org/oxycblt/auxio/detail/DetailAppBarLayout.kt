@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * DetailAppBarLayout.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * DetailAppBarLayout.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail
+package org.oxycblt.zefio.detail
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -31,11 +31,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
 import java.lang.reflect.Field
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.ui.CoordinatorAppBarLayout
-import org.oxycblt.auxio.util.getInteger
-import org.oxycblt.auxio.util.lazyReflectedField
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.ui.CoordinatorAppBarLayout
+import org.oxycblt.zefio.util.getInteger
+import org.oxycblt.zefio.util.lazyReflectedField
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [CoordinatorAppBarLayout] that displays the title of a hidden [Toolbar] when the scrolling

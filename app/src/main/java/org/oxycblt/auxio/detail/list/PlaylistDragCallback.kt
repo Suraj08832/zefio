@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaylistDragCallback.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaylistDragCallback.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,11 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.list.recycler.MaterialDragCallback
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.list.recycler.MaterialDragCallback
 
 /**
  * A [MaterialDragCallback] extension for playlist-specific item editing.

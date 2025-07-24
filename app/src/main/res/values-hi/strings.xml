@@ -266,7 +266,7 @@
     <string name="set_rewind_prev">वापस जाने से पहले रिवाइंड करें</string>
     <string name="set_replay_gain_mode_track">ट्रैक को प्राथमिकता दें</string>
     <string name="set_rescan_desc">टैग कैश साफ़ करें और संगीत लाइब्रेरी को पूरी तरह पुनः लोड करें (धीमी, लेकिन अधिक पूर्ण)</string>
-    <string name="err_no_perms">Auxio को आपकी संगीत लाइब्रेरी पढ़ने के लिए अनुमति की आवश्यकता है</string>
+    <string name="err_no_perms">zefio को आपकी संगीत लाइब्रेरी पढ़ने के लिए अनुमति की आवश्यकता है</string>
     <string name="err_no_dirs">कोई फ़ोल्डर नहीं</string>
     <string name="clr_brown">भूरा</string>
     <string name="clr_yellow">पीला</string>
@@ -274,7 +274,7 @@
     <string name="set_headset_autoplay_desc">हेडसेट कनेक्ट होने पर हमेशा चलाना शुरू करें (सभी उपकरणों पर काम नहीं करेगा)</string>
     <string name="desc_track_number">ट्रैक %d</string>
     <string name="desc_skip_next">अगले गाने पर जाएं</string>
-    <string name="desc_auxio_icon">ऑक्सियो आइकन</string>
+    <string name="desc_zefio_icon">ऑक्सियो आइकन</string>
     <string name="cdc_ogg">Ogg ऑडियो</string>
     <string name="cdc_mka">Matroska ऑडियो</string>
     <string name="clr_pink">गुलाबी</string>

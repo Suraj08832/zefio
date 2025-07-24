@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaybackModule.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaybackModule.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.PlaybackStateManagerImpl
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.PlaybackStateManagerImpl
 
 @Module
 @InstallIn(SingletonComponent::class)

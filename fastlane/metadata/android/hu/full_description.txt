@@ -1,4 +1,4 @@
-Az Auxio egy helyi zenelejátszó gyors, megbízható felhasználói felülettel/UX-szel, anélkül, hogy a többi zenelejátszóban jelen lévő sok haszontalan funkciót tartalmazna. A modern médialejátszó könyvtárakra épülő Auxio kiváló könyvtártámogatással és zenehallgatási minőséggel rendelkezik, mint más, elavult Android-funkciókat használó alkalmazások. Röviden: <b>Zenét játszik.</b>
+Az zefio egy helyi zenelejátszó gyors, megbízható felhasználói felülettel/UX-szel, anélkül, hogy a többi zenelejátszóban jelen lévő sok haszontalan funkciót tartalmazna. A modern médialejátszó könyvtárakra épülő zefio kiváló könyvtártámogatással és zenehallgatási minőséggel rendelkezik, mint más, elavult Android-funkciókat használó alkalmazások. Röviden: <b>Zenét játszik.</b>
 
 <b>Funkciók</b>
 

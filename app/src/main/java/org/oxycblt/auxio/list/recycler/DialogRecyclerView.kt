@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * DialogRecyclerView.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * DialogRecyclerView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.recycler
+package org.oxycblt.zefio.list.recycler
 
 import android.content.Context
 import android.util.AttributeSet
@@ -28,9 +28,9 @@ import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.divider.MaterialDivider
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView.ViewHolder
-import org.oxycblt.auxio.util.getDimenPixels
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView.ViewHolder
+import org.oxycblt.zefio.util.getDimenPixels
 
 /**
  * A [RecyclerView] intended for use in Dialogs, adding features such as:

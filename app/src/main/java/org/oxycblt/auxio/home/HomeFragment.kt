@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * HomeFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * HomeFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home
+package org.oxycblt.zefio.home
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -44,46 +44,46 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.lang.reflect.Field
 import java.lang.reflect.Method
 import kotlin.math.abs
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentHomeBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.detail.Show
-import org.oxycblt.auxio.home.list.AlbumListFragment
-import org.oxycblt.auxio.home.list.ArtistListFragment
-import org.oxycblt.auxio.home.list.GenreListFragment
-import org.oxycblt.auxio.home.list.PlaylistListFragment
-import org.oxycblt.auxio.home.list.SongListFragment
-import org.oxycblt.auxio.home.tabs.AdaptiveTabStrategy
-import org.oxycblt.auxio.home.tabs.Tab
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.list.SelectionFragment
-import org.oxycblt.auxio.list.menu.Menu
-import org.oxycblt.auxio.music.IndexingProgress
-import org.oxycblt.auxio.music.IndexingState
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.NoAudioPermissionException
-import org.oxycblt.auxio.music.NoMusicException
-import org.oxycblt.auxio.music.PERMISSION_READ_AUDIO
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.PlaylistDecision
-import org.oxycblt.auxio.music.PlaylistMessage
-import org.oxycblt.auxio.music.external.M3U
-import org.oxycblt.auxio.playback.PlaybackDecision
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.util.collect
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.getColorCompat
-import org.oxycblt.auxio.util.lazyReflectedField
-import org.oxycblt.auxio.util.lazyReflectedMethod
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
-import org.oxycblt.auxio.util.navigateSafe
-import org.oxycblt.auxio.util.showToast
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentHomeBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.detail.Show
+import org.oxycblt.zefio.home.list.AlbumListFragment
+import org.oxycblt.zefio.home.list.ArtistListFragment
+import org.oxycblt.zefio.home.list.GenreListFragment
+import org.oxycblt.zefio.home.list.PlaylistListFragment
+import org.oxycblt.zefio.home.list.SongListFragment
+import org.oxycblt.zefio.home.tabs.AdaptiveTabStrategy
+import org.oxycblt.zefio.home.tabs.Tab
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.list.SelectionFragment
+import org.oxycblt.zefio.list.menu.Menu
+import org.oxycblt.zefio.music.IndexingProgress
+import org.oxycblt.zefio.music.IndexingState
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.NoAudioPermissionException
+import org.oxycblt.zefio.music.NoMusicException
+import org.oxycblt.zefio.music.PERMISSION_READ_AUDIO
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.PlaylistDecision
+import org.oxycblt.zefio.music.PlaylistMessage
+import org.oxycblt.zefio.music.external.M3U
+import org.oxycblt.zefio.playback.PlaybackDecision
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.util.collect
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.getColorCompat
+import org.oxycblt.zefio.util.lazyReflectedField
+import org.oxycblt.zefio.util.lazyReflectedMethod
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
+import org.oxycblt.zefio.util.navigateSafe
+import org.oxycblt.zefio.util.showToast
 
 /**
- * The starting [SelectionFragment] of Auxio. Shows the user's music library and enables navigation
+ * The starting [SelectionFragment] of zefio. Shows the user's music library and enables navigation
  * to other views.
  *
  * @author Alexander Capehart (OxygenCobalt)

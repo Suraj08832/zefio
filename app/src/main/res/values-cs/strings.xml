@@ -92,7 +92,7 @@
     <!-- Error Namespace | Error Labels -->
     <string name="err_no_music">Nenalezena žádná hudba</string>
     <string name="err_index_failed">Načítání hudby selhalo</string>
-    <string name="err_no_perms">Auxio potřebuje oprávnění ke čtení vaší hudební knihovny</string>
+    <string name="err_no_perms">zefio potřebuje oprávnění ke čtení vaší hudební knihovny</string>
     <string name="err_no_app">Nebyla nalezena žádná aplikace, která by dokázala vykonat tuto akci</string>
     <string name="err_no_dirs">Žádné složky</string>
     <string name="err_bad_dir">Tato složka není podporována</string>
@@ -111,7 +111,7 @@
     <string name="desc_tab_handle">Přesunout tuto kartu</string>
     <string name="desc_clear_search">Vymazat hledání</string>
     <string name="desc_music_dir_delete">Odebrat složku</string>
-    <string name="desc_auxio_icon">Ikona Auxio</string>
+    <string name="desc_zefio_icon">Ikona zefio</string>
     <string name="desc_no_cover">Obal alba</string>
     <string name="desc_album_cover">Obal alba %s</string>
     <string name="desc_artist_image">Obrázek umělce %s</string>

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * PlayingIndicatorAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * PlayingIndicatorAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,13 +16,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.adapter
+package org.oxycblt.zefio.list.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
 
 /**
  * A [RecyclerView.Adapter] that supports indicating the playback status of a particular item.

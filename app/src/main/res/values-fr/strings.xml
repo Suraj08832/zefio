@@ -126,7 +126,7 @@
     <string name="lbl_genre">Genre</string>
     <string name="lbl_equalizer">Égaliseur</string>
     <string name="desc_shuffle_all">Lecture aléatoire de tous les titres</string>
-    <string name="desc_auxio_icon">Icône Auxio</string>
+    <string name="desc_zefio_icon">Icône zefio</string>
     <string name="desc_no_cover">Couverture de l\'album</string>
     <string name="def_genre">Genre inconnu</string>
     <string name="clr_dynamic">Dynamique</string>
@@ -208,7 +208,7 @@
     <string name="set_reindex">Actualiser la musique</string>
     <string name="set_rescan_desc">Effacer le cache des étiquettes et recharger entièrement la bibliothèque musicale (lent, mais plus complet)</string>
     <string name="err_no_app">Aucune application trouvée qui puisse gérer cette tâche</string>
-    <string name="err_no_perms">Auxio a besoin de permissions pour lire votre bibliothèque musicale</string>
+    <string name="err_no_perms">zefio a besoin de permissions pour lire votre bibliothèque musicale</string>
     <string name="set_intelligent_sorting">Tri intelligent</string>
     <string name="set_intelligent_sorting_desc">Ignorer les nombres ou certains mots comme \"the\" en début de nom lors du tri (fonctionne au mieux avec de la musique en anglais)</string>
     <string name="set_dirs_mode_exclude_desc">Les dossiers de musique ajoutés ne seront <b>pas</b> chargés.</string>

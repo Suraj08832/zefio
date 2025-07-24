@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * CacheRepository.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * CacheRepository.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,12 +16,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.cache
+package org.oxycblt.zefio.music.cache
 
 import javax.inject.Inject
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
 
 /**
  * A repository allowing access to cached metadata obtained in prior music loading operations.

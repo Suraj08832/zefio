@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * RepeatMode.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * RepeatMode.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,10 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.state
+package org.oxycblt.zefio.playback.state
 
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
 
 /**
  * Represents the current repeat mode of the player.

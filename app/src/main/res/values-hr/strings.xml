@@ -94,7 +94,7 @@
     <string name="set_observing_desc">Ponovo učitaj svoju zbirku glazbe čim se dogode promjene (zahtijeva stalno obavještavanje)</string>
     <string name="err_no_music">Nijedna glazba nije pronađena</string>
     <string name="err_index_failed">Greška u učitvanju glazbe</string>
-    <string name="err_no_perms">Auxio treba dozvolu za čitanje tvoje zbirke glazbe</string>
+    <string name="err_no_perms">zefio treba dozvolu za čitanje tvoje zbirke glazbe</string>
     <string name="err_no_app">Nijedna aplikacija ne može obraditi ovaj zadatak</string>
     <string name="err_no_dirs">Nema mapa</string>
     <string name="err_bad_dir">Ova mapa nije podržana</string>
@@ -107,7 +107,7 @@
     <string name="desc_tab_handle">Pomakni ovu pločicu</string>
     <string name="desc_clear_search">Izbriši pretražene pojmove</string>
     <string name="desc_music_dir_delete">Ukloni mapu</string>
-    <string name="desc_auxio_icon">Auxio logotip</string>
+    <string name="desc_zefio_icon">zefio logotip</string>
     <string name="desc_no_cover">Omot albuma</string>
     <string name="desc_album_cover">Omot albuma za %s</string>
     <string name="desc_artist_image">Slika izvođača za %s</string>

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * MediaStoreExtractor.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * MediaStoreExtractor.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.fs
+package org.oxycblt.zefio.music.fs
 
 import android.content.Context
 import android.database.Cursor
@@ -26,14 +26,14 @@ import androidx.core.database.getIntOrNull
 import androidx.core.database.getStringOrNull
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.yield
-import org.oxycblt.auxio.music.cache.Cache
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.music.dirs.MusicDirectories
-import org.oxycblt.auxio.music.info.Date
-import org.oxycblt.auxio.music.metadata.parseId3v2PositionField
-import org.oxycblt.auxio.music.metadata.transformPositionField
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.sendWithTimeout
+import org.oxycblt.zefio.music.cache.Cache
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.music.dirs.MusicDirectories
+import org.oxycblt.zefio.music.info.Date
+import org.oxycblt.zefio.music.metadata.parseId3v2PositionField
+import org.oxycblt.zefio.music.metadata.transformPositionField
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.sendWithTimeout
 
 /**
  * The layer that loads music from the [MediaStore] database. This is an intermediate step in the
@@ -309,14 +309,14 @@ private class MediaStoreExtractorImpl(
         /**
          * The album artist of a song. This column has existed since at least API 21, but until API
          * 30 it was an undocumented extension for Google Play Music. This column will work on all
-         * versions that Auxio supports.
+         * versions that zefio supports.
          */
         @Suppress("InlinedApi")
         private const val AUDIO_COLUMN_ALBUM_ARTIST = MediaStore.Audio.AudioColumns.ALBUM_ARTIST
 
         /**
          * The external volume. This naming has existed since API 21, but no constant existed for it
-         * until API 29. This will work on all versions that Auxio supports.
+         * until API 29. This will work on all versions that zefio supports.
          */
         @Suppress("InlinedApi") private const val VOLUME_EXTERNAL = MediaStore.VOLUME_EXTERNAL
 

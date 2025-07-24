@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * ArtistDetailListAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * ArtistDetailListAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,25 +16,25 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.ItemParentBinding
-import org.oxycblt.auxio.databinding.ItemSongBinding
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.ItemParentBinding
+import org.oxycblt.zefio.databinding.ItemSongBinding
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [DetailListAdapter] implementing the header and sub-items for the [Artist] detail view.

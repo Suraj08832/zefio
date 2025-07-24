@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SearchSettings.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SearchSettings.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.search
+package org.oxycblt.zefio.search
 
 import android.content.Context
 import androidx.core.content.edit
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.settings.Settings
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.settings.Settings
 
 /**
  * User configuration specific to the search UI.

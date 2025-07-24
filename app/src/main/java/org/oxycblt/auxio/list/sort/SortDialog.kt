@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SortDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SortDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,19 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.sort
+package org.oxycblt.zefio.list.sort
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.core.view.updatePadding
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButtonToggleGroup
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogSortBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.ui.ViewBindingBottomSheetDialogFragment
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogSortBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.ui.ViewBindingBottomSheetDialogFragment
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 abstract class SortDialog :
     ViewBindingBottomSheetDialogFragment<DialogSortBinding>(),

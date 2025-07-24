@@ -24,7 +24,7 @@
     <queries />
 
     <application
-        android:name=".Auxio"
+        android:name=".zefio"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -32,7 +32,7 @@
         android:label="@string/info_app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Auxio.App"
+        android:theme="@style/Theme.zefio.App"
         android:appCategory="audio"
         android:enableOnBackInvokedCallback="true"
         tools:ignore="UnusedAttribute">
@@ -41,7 +41,7 @@
             android:resource="@xml/automotive_app_desc"/>
         <meta-data
                 android:name="androidx.car.app.TintableAttributionIcon"
-                android:resource="@drawable/ic_auxio_24" />
+                android:resource="@drawable/ic_zefio_24" />
 
         <activity
             android:name=".MainActivity"
@@ -64,7 +64,7 @@
             <intent-filter>
                 <!--
                 Signal that we can take audio of *any* format, file or content. This is important,
-                as some apps use this to determine if Auxio is eligible to be a default music
+                as some apps use this to determine if zefio is eligible to be a default music
                 player.
                 -->
                 <action android:name="android.intent.action.VIEW" />
@@ -88,7 +88,7 @@
         Service handling music playback, system components, and state saving.
         -->
         <service
-            android:name=".AuxioService"
+            android:name=".zefioService"
             android:foregroundServiceType="mediaPlayback"
             android:icon="@mipmap/ic_launcher"
             android:exported="true"

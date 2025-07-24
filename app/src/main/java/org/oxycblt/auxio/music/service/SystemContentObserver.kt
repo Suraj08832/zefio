@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * SystemContentObserver.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * SystemContentObserver.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.service
+package org.oxycblt.zefio.music.service
 
 import android.content.Context
 import android.database.ContentObserver
@@ -25,10 +25,10 @@ import android.os.Looper
 import android.provider.MediaStore
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.MusicSettings
-import org.oxycblt.auxio.music.fs.contentResolverSafe
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.MusicSettings
+import org.oxycblt.zefio.music.fs.contentResolverSafe
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ContentObserver] that observes the [MediaStore] music database for changes, a behavior known

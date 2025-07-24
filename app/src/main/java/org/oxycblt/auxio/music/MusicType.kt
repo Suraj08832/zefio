@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * MusicType.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * MusicType.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,9 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music
+package org.oxycblt.zefio.music
 
-import org.oxycblt.auxio.IntegerTable
+import org.oxycblt.zefio.IntegerTable
 
 /**
  * General configuration enum to control what kind of music is being worked with.

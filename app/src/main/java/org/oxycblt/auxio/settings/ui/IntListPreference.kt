@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * IntListPreference.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * IntListPreference.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings.ui
+package org.oxycblt.zefio.settings.ui
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -28,9 +28,9 @@ import androidx.preference.DialogPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
 import java.lang.reflect.Field
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.getInteger
-import org.oxycblt.auxio.util.lazyReflectedField
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.getInteger
+import org.oxycblt.zefio.util.lazyReflectedField
 
 /**
  * An implementation of a list-based preference backed with integers.

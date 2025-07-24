@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * AudioProperties.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * AudioProperties.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.metadata
+package org.oxycblt.zefio.music.metadata
 
 import android.content.Context
 import android.media.MediaExtractor
 import android.media.MediaFormat
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.fs.MimeType
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.fs.MimeType
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.logW
 
 /**
  * The properties of a [Song]'s file.

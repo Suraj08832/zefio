@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * PlaybackPanelFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * PlaybackPanelFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -31,21 +31,21 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.updatePadding
 import androidx.fragment.app.activityViewModels
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentPlaybackPanelBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.playback.ui.StyledSeekBar
-import org.oxycblt.auxio.playback.ui.SwipeCoverView
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.showToast
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentPlaybackPanelBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.playback.ui.StyledSeekBar
+import org.oxycblt.zefio.playback.ui.SwipeCoverView
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.showToast
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A [ViewBindingFragment] more information about the currently playing song, alongside all

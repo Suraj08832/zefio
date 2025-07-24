@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * ArtistPlaybackChoiceAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * ArtistPlaybackChoiceAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.decision
+package org.oxycblt.zefio.playback.decision
 
 import android.view.View
 import android.view.ViewGroup
-import org.oxycblt.auxio.databinding.ItemPickerChoiceBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.FlexibleListAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemPickerChoiceBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.FlexibleListAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [FlexibleListAdapter] that displays a list of [Artist] playback choices, for use with

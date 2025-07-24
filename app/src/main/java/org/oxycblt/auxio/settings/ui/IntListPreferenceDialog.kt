@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * IntListPreferenceDialog.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * IntListPreferenceDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings.ui
+package org.oxycblt.zefio.settings.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.AppCompatButton
 import androidx.preference.PreferenceDialogFragmentCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.fixDoubleRipple
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.fixDoubleRipple
 
 /**
  * The companion dialog to [IntListPreference]. Use [from] to create an instance.

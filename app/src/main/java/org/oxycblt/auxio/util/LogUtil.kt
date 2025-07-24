@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * LogUtil.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * LogUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,9 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.util
+package org.oxycblt.zefio.util
 
-import org.oxycblt.auxio.BuildConfig
+import org.oxycblt.zefio.BuildConfig
 import timber.log.Timber
 
 /**
@@ -54,16 +54,16 @@ inline fun logW(msg: String) = Timber.w(msg)
 inline fun logE(msg: String) = Timber.e(msg)
 
 /**
- * Please don't plagiarize Auxio! You are free to remove this as long as you continue to keep your
+ * Please don't plagiarize zefio! You are free to remove this as long as you continue to keep your
  * source open.
  */
 @Suppress("KotlinConstantConditions")
 fun copyleftNotice(): Boolean {
-    if (BuildConfig.APPLICATION_ID != "org.oxycblt.auxio" &&
-        BuildConfig.APPLICATION_ID != "org.oxycblt.auxio.debug") {
+    if (BuildConfig.APPLICATION_ID != "org.oxycblt.zefio" &&
+        BuildConfig.APPLICATION_ID != "org.oxycblt.zefio.debug") {
         Timber.d(
-            "Auxio Project",
-            "Friendly reminder: Auxio is licensed under the " +
+            "zefio Project",
+            "Friendly reminder: zefio is licensed under the " +
                 "GPLv3 and all derivative apps must be made open source!")
         return true
     }

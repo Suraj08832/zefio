@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MenuItemAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MenuItemAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.menu
+package org.oxycblt.zefio.list.menu
 
 import android.view.MenuItem
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
-import org.oxycblt.auxio.databinding.ItemMenuOptionBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.adapter.FlexibleListAdapter
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemMenuOptionBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.adapter.FlexibleListAdapter
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.util.inflater
 
 /**
  * Displays a list of [MenuItem]s as custom list items.

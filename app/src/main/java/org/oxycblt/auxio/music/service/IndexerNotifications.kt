@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * IndexerNotifications.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * IndexerNotifications.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.service
+package org.oxycblt.zefio.music.service
 
 import android.content.Context
 import android.os.SystemClock
@@ -24,12 +24,12 @@ import androidx.annotation.StringRes
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.IndexingProgress
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.newMainPendingIntent
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.IndexingProgress
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.newMainPendingIntent
 
 /**
  * Wrapper around [NotificationCompat.Builder] intended for use for [NotificationCompat]s that

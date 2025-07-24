@@ -144,7 +144,7 @@
     <string name="set_rescan_desc">ਟੈਗ ਕੈਸ਼ ਨੂੰ ਸਾਫ਼ ਕਰੋ ਅਤੇ ਸੰਗੀਤ ਲਾਇਬ੍ਰੇਰੀ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੀਲੋਡ ਕਰੋ (ਹੌਲੀ, ਪਰ ਵਧੇਰੇ ਸੰਪੂਰਨ)</string>
     <string name="err_no_music">ਕੋਈ ਸੰਗੀਤ ਨਹੀਂ ਮਿਲਿਆ</string>
     <string name="err_index_failed">ਸੰਗੀਤ ਲੋਡ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ</string>
-    <string name="err_no_perms">Auxio ਨੂੰ ਤੁਹਾਡੀ ਸੰਗੀਤ ਲਾਇਬ੍ਰੇਰੀ ਨੂੰ ਪੜ੍ਹਨ ਲਈ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="err_no_perms">zefio ਨੂੰ ਤੁਹਾਡੀ ਸੰਗੀਤ ਲਾਇਬ੍ਰੇਰੀ ਨੂੰ ਪੜ੍ਹਨ ਲਈ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ</string>
     <string name="desc_track_number">%d ਨੂੰ ਟਰੈਕ ਕਰੋ</string>
     <string name="set_hide_collaborators_desc">ਸਿਰਫ਼ ਉਹਨਾਂ ਕਲਾਕਾਰਾਂ ਨੂੰ ਦਿਖਾਓ ਜੋ ਕਿਸੇ ਐਲਬਮ \'ਤੇ ਸਿੱਧੇ ਤੌਰ \'ਤੇ ਕ੍ਰੈਡਿਟ ਕੀਤੇ ਜਾਂਦੇ ਹਨ (ਚੰਗੀ ਤਰ੍ਹਾਂ ਨਾਲ ਟੈਗ ਕੀਤੀਆਂ ਲਾਇਬ੍ਰੇਰੀਆਂ \'ਤੇ ਵਧੀਆ ਕੰਮ ਕਰਦਾ ਹੈ</string>
     <string name="set_exclude_non_music_desc">ਉਹਨਾਂ ਆਡੀਓ ਫਾਈਲਾਂ ਨੂੰ ਅਣਡਿੱਠ ਕਰੋ ਜੋ ਸੰਗੀਤ ਨਹੀਂ ਹਨ, ਜਿਵੇਂ ਕਿ ਪੌਡਕਾਸਟ</string>
@@ -260,7 +260,7 @@
     <string name="clr_grey">ਸਲੇਟੀ</string>
     <string name="fmt_lib_total_duration">ਕੁੱਲ ਮਿਆਦ: %s</string>
     <string name="desc_music_dir_delete">ਫੋਲਡਰ ਹਟਾਓ</string>
-    <string name="desc_auxio_icon">Auxio ਆਈਕਾਨ</string>
+    <string name="desc_zefio_icon">zefio ਆਈਕਾਨ</string>
     <string name="lbl_appears_on">ਉੱਤੇ ਵਿਖਾਈ ਦਿੰਦਾ ਹੈ</string>
     <string name="lbl_playlists">ਪਲੇਅ-ਲਿਸਟਾਂ</string>
     <string name="lbl_share">ਸਾਂਝਾ ਕਰੋ</string>

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * PlaybackViewModel.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * PlaybackViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -27,23 +27,23 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import org.oxycblt.auxio.list.ListSettings
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.state.DeferredPlayback
-import org.oxycblt.auxio.playback.state.PlaybackCommand
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.Progression
-import org.oxycblt.auxio.playback.state.QueueChange
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.playback.state.ShuffleMode
-import org.oxycblt.auxio.util.Event
-import org.oxycblt.auxio.util.MutableEvent
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.list.ListSettings
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.state.DeferredPlayback
+import org.oxycblt.zefio.playback.state.PlaybackCommand
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.Progression
+import org.oxycblt.zefio.playback.state.QueueChange
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.playback.state.ShuffleMode
+import org.oxycblt.zefio.util.Event
+import org.oxycblt.zefio.util.MutableEvent
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [ViewModel] that provides a safe UI frontend for the current playback state.

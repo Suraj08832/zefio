@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * PlaybackBottomSheetBehavior.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * PlaybackBottomSheetBehavior.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import android.content.Context
 import android.graphics.drawable.LayerDrawable
@@ -28,12 +28,12 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.R as MR
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.ui.BaseBottomSheetBehavior
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.replaceSystemBarInsetsCompat
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.ui.BaseBottomSheetBehavior
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.replaceSystemBarInsetsCompat
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * The [BaseBottomSheetBehavior] for the playback bottom sheet. This bottom sheet
@@ -65,7 +65,7 @@ class PlaybackBottomSheetBehavior<V : View>(context: Context, attributeSet: Attr
     override fun onInterceptTouchEvent(parent: CoordinatorLayout, child: V, event: MotionEvent) =
         super.onInterceptTouchEvent(parent, child, event) && state != STATE_EXPANDED
 
-    // Note: This is an extension to Auxio's vendored BottomSheetBehavior
+    // Note: This is an extension to zefio's vendored BottomSheetBehavior
     override fun isHideableWhenDragging() = false
 
     override fun createBackground(context: Context) =

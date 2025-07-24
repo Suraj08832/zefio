@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * RawPlaylist.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * RawPlaylist.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.user
+package org.oxycblt.zefio.music.user
 
 import androidx.room.ColumnInfo
 import androidx.room.Embedded
@@ -24,7 +24,7 @@ import androidx.room.Entity
 import androidx.room.Junction
 import androidx.room.PrimaryKey
 import androidx.room.Relation
-import org.oxycblt.auxio.music.Music
+import org.oxycblt.zefio.music.Music
 
 /**
  * Raw playlist information persisted to [UserMusicDatabase].

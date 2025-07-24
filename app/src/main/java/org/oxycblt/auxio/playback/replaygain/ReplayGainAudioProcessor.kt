@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * ReplayGainAudioProcessor.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * ReplayGainAudioProcessor.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.replaygain
+package org.oxycblt.zefio.playback.replaygain
 
 import androidx.media3.common.C
 import androidx.media3.common.Format
@@ -26,13 +26,13 @@ import androidx.media3.common.audio.BaseAudioProcessor
 import java.nio.ByteBuffer
 import javax.inject.Inject
 import kotlin.math.pow
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.QueueChange
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.QueueChange
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [AudioProcessor] that handles ReplayGain values and their amplification of the audio stream.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * FrameworkUtil.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * FrameworkUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.util
+package org.oxycblt.zefio.util
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -44,9 +44,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.appbar.MaterialToolbar
 import java.lang.IllegalArgumentException
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
 
 /**
  * Get if this [View] contains the given [PointF], with optional leeway.

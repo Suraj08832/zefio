@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SongPropertyAdapter.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SongPropertyAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,19 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.StringRes
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.databinding.ItemSongPropertyBinding
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.adapter.FlexibleListAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemSongPropertyBinding
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.adapter.FlexibleListAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
 
 /**
  * An adapter for [SongProperty] instances.

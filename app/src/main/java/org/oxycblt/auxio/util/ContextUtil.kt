@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * ContextUtil.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * ContextUtil.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.util
+package org.oxycblt.zefio.util
 
 import android.app.PendingIntent
 import android.content.Context
@@ -37,9 +37,9 @@ import androidx.annotation.Px
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import kotlin.reflect.KClass
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.MainActivity
-import org.oxycblt.auxio.R
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.MainActivity
+import org.oxycblt.zefio.R
 
 /**
  * Get a [LayoutInflater] instance from this [Context].

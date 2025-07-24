@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * FastScrollRecyclerView.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * FastScrollRecyclerView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.fastscroll
+package org.oxycblt.zefio.home.fastscroll
 
 import android.content.Context
 import android.graphics.Canvas
@@ -38,17 +38,17 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.R as MR
 import com.google.android.material.motion.MotionUtils
 import kotlin.math.abs
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.recycler.AuxioRecyclerView
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.getDrawableCompat
-import org.oxycblt.auxio.util.isRtl
-import org.oxycblt.auxio.util.isUnder
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.recycler.zefioRecyclerView
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.getDrawableCompat
+import org.oxycblt.zefio.util.isRtl
+import org.oxycblt.zefio.util.isUnder
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * A [RecyclerView] that enables better fast-scrolling. This is fundamentally a implementation of
- * Hai Zhang's AndroidFastScroll but slimmed down for Auxio and with a couple of enhancements.
+ * Hai Zhang's AndroidFastScroll but slimmed down for zefio and with a couple of enhancements.
  *
  * Attributions as per the Apache 2.0 license:
  * - ORIGINAL AUTHOR: Hai Zhang [https://github.com/zhanghai]
@@ -62,7 +62,7 @@ import org.oxycblt.auxio.util.systemBarInsetsCompat
  * - FastScroller overlay was merged into RecyclerView instance
  * - Removed FastScrollerBuilder
  * - Converted all code to kotlin
- * - Use modified Auxio resources instead of AFS resources
+ * - Use modified zefio resources instead of AFS resources
  * - Track view is now only used for touch bounds
  * - Redundant functions have been merged
  * - Variable names are no longer prefixed with m
@@ -77,7 +77,7 @@ import org.oxycblt.auxio.util.systemBarInsetsCompat
 class FastScrollRecyclerView
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
-    AuxioRecyclerView(context, attrs, defStyleAttr) {
+    zefioRecyclerView(context, attrs, defStyleAttr) {
     // Thumb
     private val thumbView =
         View(context).apply {

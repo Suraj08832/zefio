@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AlbumDetailListAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * AlbumDetailListAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.view.View
 import android.view.ViewGroup
@@ -24,21 +24,21 @@ import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.ItemAlbumSongBinding
-import org.oxycblt.auxio.databinding.ItemDiscHeaderBinding
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.info.Disc
-import org.oxycblt.auxio.playback.formatDurationMs
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.ItemAlbumSongBinding
+import org.oxycblt.zefio.databinding.ItemDiscHeaderBinding
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.info.Disc
+import org.oxycblt.zefio.playback.formatDurationMs
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * An [DetailListAdapter] implementing the header and sub-items for the [Album] detail view.

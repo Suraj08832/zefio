@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * DialogAwareNavigationListener.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * DialogAwareNavigationListener.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.os.Bundle
 import androidx.navigation.NavController
@@ -26,7 +26,7 @@ import androidx.navigation.NavDestination
  * A [NavController.OnDestinationChangedListener] that will call [callback] when moving between
  * fragments only (not between dialogs or anything similar).
  *
- * Note: This only works because of special naming used in Auxio's navigation graphs. Keep this in
+ * Note: This only works because of special naming used in zefio's navigation graphs. Keep this in
  * mind when porting to other projects.
  *
  * @author Alexander Capehart (OxygenCobalt)

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MusicDirectories.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MusicDirectories.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,9 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.dirs
+package org.oxycblt.zefio.music.dirs
 
-import org.oxycblt.auxio.music.fs.Path
+import org.oxycblt.zefio.music.fs.Path
 
 /**
  * Represents the configuration for specific directories to filter to/from when loading music.

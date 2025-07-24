@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * StyledSeekBar.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * StyledSeekBar.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.ui
+package org.oxycblt.zefio.playback.ui
 
 import android.content.Context
 import android.util.AttributeSet
 import com.google.android.material.slider.Slider
 import kotlin.math.max
-import org.oxycblt.auxio.databinding.ViewSeekBarBinding
-import org.oxycblt.auxio.playback.formatDurationDs
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.ViewSeekBarBinding
+import org.oxycblt.zefio.playback.formatDurationDs
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * A wrapper around [Slider] that shows position and duration values and sanitizes input to reduce

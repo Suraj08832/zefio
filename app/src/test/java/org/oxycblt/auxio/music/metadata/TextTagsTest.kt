@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * TextTagsTest.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * TextTagsTest.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.metadata
+package org.oxycblt.zefio.music.metadata
 
 import androidx.media3.common.Metadata
 import androidx.media3.extractor.metadata.flac.PictureFrame

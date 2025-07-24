@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * AddToPlaylistDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * AddToPlaylistDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.decision
+package org.oxycblt.zefio.music.decision
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,16 +28,16 @@ import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogMusicChoicesBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.PlaylistDecision
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.navigateSafe
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogMusicChoicesBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.PlaylistDecision
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.navigateSafe
 
 /**
  * A dialog that allows the user to pick a specific playlist to add song(s) to.

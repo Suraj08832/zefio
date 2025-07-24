@@ -154,12 +154,12 @@
     <string name="desc_skip_prev">Son şarkıya geç</string>
     <string name="desc_change_repeat">Tekrarlama modunu değiştir</string>
     <string name="err_index_failed">Müzik yüklemesi başarısız oldu</string>
-    <string name="err_no_perms">Auxio\'nun müzik kitaplığınızı görüntülemek için izne ihtiyacı var</string>
+    <string name="err_no_perms">zefio\'nun müzik kitaplığınızı görüntülemek için izne ihtiyacı var</string>
     <string name="err_no_app">Bu görevi yerine getirebilecek bir uygulama bulunamadı</string>
     <string name="desc_shuffle">Karıştırmayı açın veya kapatın</string>
     <string name="desc_music_dir_delete">Klasörü kaldır</string>
     <string name="desc_shuffle_all">Bütün şarkıları karıştır</string>
-    <string name="desc_auxio_icon">Auxio simgesi</string>
+    <string name="desc_zefio_icon">zefio simgesi</string>
     <string name="desc_tab_handle">Bu sekmeyi taşı</string>
     <string name="desc_no_cover">Albüm kapağı</string>
     <string name="desc_clear_search">Arama sorgusunu temizle</string>

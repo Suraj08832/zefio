@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * BasePreferenceFragment.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * BasePreferenceFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings
+package org.oxycblt.zefio.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -32,13 +32,13 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.children
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.transition.MaterialSharedAxis
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.settings.ui.IntListPreference
-import org.oxycblt.auxio.settings.ui.IntListPreferenceDialog
-import org.oxycblt.auxio.settings.ui.PreferenceHeaderItemDecoration
-import org.oxycblt.auxio.settings.ui.WrappedDialogPreference
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.settings.ui.IntListPreference
+import org.oxycblt.zefio.settings.ui.IntListPreferenceDialog
+import org.oxycblt.zefio.settings.ui.PreferenceHeaderItemDecoration
+import org.oxycblt.zefio.settings.ui.WrappedDialogPreference
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
  * Shared [PreferenceFragmentCompat] used across all preference screens.

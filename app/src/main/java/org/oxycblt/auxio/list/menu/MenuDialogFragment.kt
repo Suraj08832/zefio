@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MenuDialogFragment.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MenuDialogFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.menu
+package org.oxycblt.zefio.list.menu
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -27,13 +27,13 @@ import androidx.appcompat.view.menu.MenuBuilder
 import androidx.core.view.children
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.databinding.DialogMenuBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.ui.ViewBindingBottomSheetDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.databinding.DialogMenuBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.ui.ViewBindingBottomSheetDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewBindingBottomSheetDialogFragment] that displays basic music information and a series of

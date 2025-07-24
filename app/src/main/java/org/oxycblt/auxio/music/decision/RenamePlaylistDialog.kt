@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * RenamePlaylistDialog.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * RenamePlaylistDialog.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.decision
+package org.oxycblt.zefio.music.decision
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,13 +27,13 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.DialogPlaylistNameBinding
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.ui.ViewBindingMaterialDialogFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.DialogPlaylistNameBinding
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.ui.ViewBindingMaterialDialogFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A dialog allowing the name of a new playlist to be chosen before committing it to the database.

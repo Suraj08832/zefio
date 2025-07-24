@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * PlaybackActionHandler.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * PlaybackActionHandler.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -32,17 +32,17 @@ import androidx.media3.session.SessionCommand
 import androidx.media3.session.SessionCommands
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.ActionMode
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.Progression
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.widgets.WidgetComponent
-import org.oxycblt.auxio.widgets.WidgetProvider
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.ActionMode
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.Progression
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.widgets.WidgetComponent
+import org.oxycblt.zefio.widgets.WidgetProvider
 
 class PlaybackActionHandler
 @Inject
@@ -229,7 +229,7 @@ class SystemPlaybackReceiver(
                 pauseFromHeadsetPlug()
             }
 
-            // --- AUXIO EVENTS ---
+            // --- zefio EVENTS ---
             PlaybackActions.ACTION_PLAY_PAUSE -> {
                 logD("Received play event")
                 playbackManager.playing(!playbackManager.progression.isPlaying)

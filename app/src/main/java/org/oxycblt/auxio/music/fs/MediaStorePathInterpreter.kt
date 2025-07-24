@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * MediaStorePathInterpreter.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * MediaStorePathInterpreter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,12 +16,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.fs
+package org.oxycblt.zefio.music.fs
 
 import android.database.Cursor
 import android.os.Build
 import android.provider.MediaStore
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.util.logE
 
 /**
  * Wrapper around a [Cursor] that interprets path information on a per-API/manufacturer basis.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * IndexerServiceFragment.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * IndexerServiceFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.service
+package org.oxycblt.zefio.music.service
 
 import android.content.Context
 import android.os.PowerManager
@@ -26,14 +26,14 @@ import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.ForegroundListener
-import org.oxycblt.auxio.music.IndexingState
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.MusicSettings
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.util.getSystemServiceCompat
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.ForegroundListener
+import org.oxycblt.zefio.music.IndexingState
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.MusicSettings
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.util.getSystemServiceCompat
+import org.oxycblt.zefio.util.logD
 
 class IndexerServiceFragment
 @Inject

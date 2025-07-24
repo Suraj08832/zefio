@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * PlaybackStateHolder.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * PlaybackStateHolder.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,13 +16,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.state
+package org.oxycblt.zefio.playback.state
 
 import android.net.Uri
 import android.os.SystemClock
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
 
 /**
  * The designated "source of truth" for the current playback state. Should only be used by

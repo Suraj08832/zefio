@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * RootPreferenceFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * RootPreferenceFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.settings
+package org.oxycblt.zefio.settings
 
 import android.os.Bundle
 import androidx.fragment.app.activityViewModels
@@ -26,11 +26,11 @@ import androidx.preference.PreferenceFragmentCompat
 import com.google.android.material.transition.MaterialFadeThrough
 import com.google.android.material.transition.MaterialSharedAxis
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.settings.ui.WrappedDialogPreference
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.navigateSafe
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.settings.ui.WrappedDialogPreference
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.navigateSafe
 
 /**
  * The [PreferenceFragmentCompat] that displays the root settings list.

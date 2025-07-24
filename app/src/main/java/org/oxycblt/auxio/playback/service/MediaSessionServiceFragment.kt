@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * MediaSessionServiceFragment.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * MediaSessionServiceFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import android.app.Notification
 import android.content.Context
@@ -44,15 +44,15 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
 import kotlinx.coroutines.guava.asListenableFuture
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.ForegroundListener
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.service.MediaItemBrowser
-import org.oxycblt.auxio.playback.state.DeferredPlayback
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.newMainPendingIntent
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.ForegroundListener
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.service.MediaItemBrowser
+import org.oxycblt.zefio.playback.state.DeferredPlayback
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.newMainPendingIntent
 
 class MediaSessionServiceFragment
 @Inject
@@ -83,7 +83,7 @@ constructor(
             .setSkipPrevDrawableResourceId(R.drawable.ic_skip_prev_24)
             .setContentIntent(context.newMainPendingIntent())
             .build()
-            .also { it.setSmallIcon(R.drawable.ic_auxio_24) }
+            .also { it.setSmallIcon(R.drawable.ic_zefio_24) }
     private var foregroundListener: ForegroundListener? = null
 
     lateinit var mediaSession: MediaLibrarySession
@@ -119,7 +119,7 @@ constructor(
                 IntegerTable.START_ID_TASKER ->
                     DeferredPlayback.RestoreState(
                         play = true, fallback = DeferredPlayback.ShuffleAll)
-                // External services using Auxio better know what they are doing.
+                // External services using zefio better know what they are doing.
                 else -> DeferredPlayback.RestoreState(play = false)
             }
         if (action != null) {

@@ -117,7 +117,7 @@
     <string name="set_remember_pause_desc">البقاء على التشغيل/الإيقاف عند الانتقال أو تعديل قائمة التشغيل</string>
     <string name="set_remember_pause">تذكر الإيقاف المؤقت</string>
     <string name="set_rescan_desc">مسح ذاكرة التخزين المؤقت للعلامات وإعادة تحميل كامل مكتبة الموسيقى (أبطأ ولكن أكثر اكتمالًا)</string>
-    <string name="err_no_perms">يحتاج Auxio إلى إذن لقراءة مكتبة الموسيقى الخاصة بك.</string>
+    <string name="err_no_perms">يحتاج zefio إلى إذن لقراءة مكتبة الموسيقى الخاصة بك.</string>
     <string name="err_import_failed">غير قادر على استيراد قائمة التشغيل من هذا الملف</string>
     <string name="err_no_app">لم يتم العثور على تطبيق يمكنه التعامل مع هذه المهمة</string>
     <string name="desc_play_pause">تشغيل أو إيقاف مؤقت</string>
@@ -131,7 +131,7 @@
     <string name="desc_no_cover">غلاف الألبوم</string>
     <string name="err_export_failed">غير قادر على تصدير قائمة التشغيل إلى هذا الملف</string>
     <string name="desc_music_dir_delete">إزالة المجلد</string>
-    <string name="desc_auxio_icon">رمز مساعد</string>
+    <string name="desc_zefio_icon">رمز مساعد</string>
     <string name="fmt_list">%1$s، %2$s</string>
     <string name="clr_dynamic">متحرك</string>
     <string name="lbl_mixtapes">البومات ما قبل الإطلاق</string>

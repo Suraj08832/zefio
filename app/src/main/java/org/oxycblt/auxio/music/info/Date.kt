@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * Date.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * Date.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.info
+package org.oxycblt.zefio.music.info
 
 import android.content.Context
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import kotlin.math.max
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.inRangeOrNull
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.positiveOrNull
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.inRangeOrNull
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.positiveOrNull
 
 /**
  * An ISO-8601/RFC 3339 Date.

@@ -9,9 +9,9 @@
     android:transitionGroup="true"
     tools:context=".settings.AboutFragment">
 
-    <org.oxycblt.auxio.ui.CoordinatorAppBarLayout
+    <org.oxycblt.zefio.ui.CoordinatorAppBarLayout
         android:id="@+id/about_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.zefio.AppBarLayout"
         app:liftOnScroll="true">
 
         <com.google.android.material.appbar.MaterialToolbar
@@ -21,7 +21,7 @@
             app:navigationIcon="@drawable/ic_back_24"
             app:title="@string/lbl_about" />
 
-    </org.oxycblt.auxio.ui.CoordinatorAppBarLayout>
+    </org.oxycblt.zefio.ui.CoordinatorAppBarLayout>
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/about_contents"
@@ -46,10 +46,10 @@
                     android:paddingBottom="@dimen/spacing_tiny">
 
                     <ImageView
-                        android:id="@+id/about_auxio_icon"
-                        style="@style/Widget.Auxio.Image.Small"
+                        android:id="@+id/about_zefio_icon"
+                        style="@style/Widget.zefio.Image.Small"
                         android:layout_marginTop="@dimen/spacing_medium"
-                        android:contentDescription="@string/desc_auxio_icon"
+                        android:contentDescription="@string/desc_zefio_icon"
                         android:src="@mipmap/ic_launcher"
                         app:layout_constraintEnd_toStartOf="@+id/about_app_name"
                         app:layout_constraintHorizontal_chainStyle="packed"
@@ -62,11 +62,11 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/spacing_medium"
                         android:text="@string/info_app_name"
-                        android:textAppearance="@style/TextAppearance.Auxio.TitleLarge"
-                        app:layout_constraintBottom_toBottomOf="@+id/about_auxio_icon"
+                        android:textAppearance="@style/TextAppearance.zefio.TitleLarge"
+                        app:layout_constraintBottom_toBottomOf="@+id/about_zefio_icon"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/about_auxio_icon"
-                        app:layout_constraintTop_toTopOf="@+id/about_auxio_icon" />
+                        app:layout_constraintStart_toEndOf="@+id/about_zefio_icon"
+                        app:layout_constraintTop_toTopOf="@+id/about_zefio_icon" />
 
                     <TextView
                         android:id="@+id/about_desc"
@@ -77,10 +77,10 @@
                         android:paddingStart="@dimen/spacing_medium"
                         android:paddingEnd="@dimen/spacing_medium"
                         android:text="@string/info_app_desc"
-                        android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+                        android:textAppearance="@style/TextAppearance.zefio.BodyLarge"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/about_auxio_icon" />
+                        app:layout_constraintTop_toBottomOf="@+id/about_zefio_icon" />
 
 
                     <ImageView
@@ -101,7 +101,7 @@
                         android:layout_marginStart="@dimen/spacing_medium"
                         android:layout_marginTop="@dimen/spacing_mid_medium"
                         android:text="@string/lbl_version"
-                        android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+                        android:textAppearance="@style/TextAppearance.zefio.BodyLarge"
                         app:layout_constraintBottom_toTopOf="@+id/about_version"
                         app:layout_constraintStart_toEndOf="@+id/about_version_icon"
                         app:layout_constraintTop_toBottomOf="@+id/about_desc" />
@@ -111,14 +111,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/spacing_medium"
-                        android:textAppearance="@style/TextAppearance.Auxio.BodySmall"
+                        android:textAppearance="@style/TextAppearance.zefio.BodySmall"
                         app:layout_constraintStart_toStartOf="@+id/about_version_title"
                         app:layout_constraintTop_toBottomOf="@+id/about_version_title"
                         tools:text="16.16.16" />
 
                     <TextView
                         android:id="@+id/about_code"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/spacing_mid_medium"
@@ -131,7 +131,7 @@
 
                     <TextView
                         android:id="@+id/about_wiki"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_wiki"
@@ -143,7 +143,7 @@
 
                     <TextView
                         android:id="@+id/about_licenses"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_licenses"
@@ -169,7 +169,7 @@
 
                     <TextView
                         android:id="@+id/about_author"
-                        style="@style/Widget.Auxio.TextView.Header"
+                        style="@style/Widget.zefio.TextView.Header"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_author"
@@ -178,7 +178,7 @@
 
                     <TextView
                         android:id="@+id/about_profile"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_author_name"
@@ -190,7 +190,7 @@
 
                     <TextView
                         android:id="@+id/about_donate"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_donate"
@@ -217,7 +217,7 @@
 
                     <TextView
                         android:id="@+id/about_supporters"
-                        style="@style/Widget.Auxio.TextView.Header"
+                        style="@style/Widget.zefio.TextView.Header"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_supporters"
@@ -226,12 +226,12 @@
 
                     <TextView
                         android:id="@+id/about_supporters_promo"
-                        style="@style/Widget.Auxio.TextView.Icon.Clickable"
+                        style="@style/Widget.zefio.TextView.Icon.Clickable"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lng_supporters_promo"
                         android:textStyle="italic"
-                        android:textAppearance="@style/TextAppearance.Auxio.BodyMedium"
+                        android:textAppearance="@style/TextAppearance.zefio.BodyMedium"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/about_licenses" />
@@ -253,7 +253,7 @@
 
                     <TextView
                         android:id="@+id/about_library_counts"
-                        style="@style/Widget.Auxio.TextView.Header"
+                        style="@style/Widget.zefio.TextView.Header"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lbl_library_counts"
@@ -262,7 +262,7 @@
 
                     <TextView
                         android:id="@+id/about_song_count"
-                        style="@style/Widget.Auxio.TextView.Icon"
+                        style="@style/Widget.zefio.TextView.Icon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:drawableStartCompat="@drawable/ic_song_24"
@@ -274,7 +274,7 @@
 
                     <TextView
                         android:id="@+id/about_album_count"
-                        style="@style/Widget.Auxio.TextView.Icon"
+                        style="@style/Widget.zefio.TextView.Icon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:drawableStartCompat="@drawable/ic_album_24"
@@ -286,7 +286,7 @@
 
                     <TextView
                         android:id="@+id/about_artist_count"
-                        style="@style/Widget.Auxio.TextView.Icon"
+                        style="@style/Widget.zefio.TextView.Icon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:drawableStartCompat="@drawable/ic_artist_24"
@@ -298,7 +298,7 @@
 
                     <TextView
                         android:id="@+id/about_genre_count"
-                        style="@style/Widget.Auxio.TextView.Icon"
+                        style="@style/Widget.zefio.TextView.Icon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:drawableStartCompat="@drawable/ic_genre_24"
@@ -310,7 +310,7 @@
 
                     <TextView
                         android:id="@+id/about_total_duration"
-                        style="@style/Widget.Auxio.TextView.Icon"
+                        style="@style/Widget.zefio.TextView.Icon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:drawableStartCompat="@drawable/ic_time_24"

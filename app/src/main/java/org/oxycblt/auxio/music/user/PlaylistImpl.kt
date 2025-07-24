@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaylistImpl.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaylistImpl.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.user
+package org.oxycblt.zefio.music.user
 
-import org.oxycblt.auxio.image.extractor.ParentCover
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.device.DeviceLibrary
-import org.oxycblt.auxio.music.info.Name
+import org.oxycblt.zefio.image.extractor.ParentCover
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.device.DeviceLibrary
+import org.oxycblt.zefio.music.info.Name
 
 class PlaylistImpl
 private constructor(
@@ -81,7 +81,7 @@ private constructor(
          * @param nameFactory The [Name.Known.Factory] to interpret name information with.
          */
         fun from(name: String, songs: List<Song>, nameFactory: Name.Known.Factory) =
-            PlaylistImpl(Music.UID.auxio(MusicType.PLAYLISTS), nameFactory.parse(name, null), songs)
+            PlaylistImpl(Music.UID.zefio(MusicType.PLAYLISTS), nameFactory.parse(name, null), songs)
 
         /**
          * Populate a new instance from a read [RawPlaylist].

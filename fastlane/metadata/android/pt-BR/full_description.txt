@@ -1,4 +1,4 @@
-O Auxio é um reprodutor de música local com UI/UX rápido e confiável, sem os muitos recursos inúteis presentes em outros reprodutores de música. Construído a partir do Exoplayer, o Auxio tem uma experiência de audição muito melhor em comparação com outros aplicativos que usam a API MediaPlayer nativa. Resumindo, <b>Toca música.</b>
+O zefio é um reprodutor de música local com UI/UX rápido e confiável, sem os muitos recursos inúteis presentes em outros reprodutores de música. Construído a partir do Exoplayer, o zefio tem uma experiência de audição muito melhor em comparação com outros aplicativos que usam a API MediaPlayer nativa. Resumindo, <b>Toca música.</b>
 
 <b>Recursos</b>
 

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * FastScrollPopupView.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * FastScrollPopupView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.fastscroll
+package org.oxycblt.zefio.home.fastscroll
 
 import android.content.Context
 import android.graphics.Canvas
@@ -35,10 +35,10 @@ import android.view.Gravity
 import androidx.core.widget.TextViewCompat
 import com.google.android.material.R as MR
 import com.google.android.material.textview.MaterialTextView
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.isRtl
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.isRtl
 
 /**
  * A [MaterialTextView] that displays the popup indicator used in FastScrollRecyclerView
@@ -53,7 +53,7 @@ constructor(context: Context, attrs: AttributeSet? = null, defStyleRes: Int = 0)
         minimumWidth = context.getDimenPixels(R.dimen.size_touchable_mid_huge)
         minimumHeight = context.getDimenPixels(R.dimen.size_touchable_large)
 
-        TextViewCompat.setTextAppearance(this, R.style.TextAppearance_Auxio_HeadlineLarge)
+        TextViewCompat.setTextAppearance(this, R.style.TextAppearance_zefio_HeadlineLarge)
         setTextColor(context.getAttrColorCompat(MR.attr.colorOnSecondary))
         ellipsize = TextUtils.TruncateAt.MIDDLE
         gravity = Gravity.CENTER

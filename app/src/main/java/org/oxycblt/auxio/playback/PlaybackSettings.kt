@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaybackSettings.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaybackSettings.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import android.content.Context
 import androidx.core.content.edit
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.IntegerTable
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.playback.replaygain.ReplayGainMode
-import org.oxycblt.auxio.playback.replaygain.ReplayGainPreAmp
-import org.oxycblt.auxio.settings.Settings
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.IntegerTable
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.playback.replaygain.ReplayGainMode
+import org.oxycblt.zefio.playback.replaygain.ReplayGainPreAmp
+import org.oxycblt.zefio.settings.Settings
+import org.oxycblt.zefio.util.logD
 
 /**
  * User configuration specific to the playback system.
@@ -202,7 +202,7 @@ class PlaybackSettingsImpl @Inject constructor(@ApplicationContext context: Cont
     }
 
     private companion object {
-        const val OLD_KEY_LIB_MUSIC_PLAYBACK_MODE = "auxio_library_playback_mode"
-        const val OLD_KEY_DETAIL_MUSIC_PLAYBACK_MODE = "auxio_detail_playback_mode"
+        const val OLD_KEY_LIB_MUSIC_PLAYBACK_MODE = "zefio_library_playback_mode"
+        const val OLD_KEY_DETAIL_MUSIC_PLAYBACK_MODE = "zefio_detail_playback_mode"
     }
 }

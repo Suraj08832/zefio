@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * MediaItemTranslation.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * MediaItemTranslation.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.service
+package org.oxycblt.zefio.music.service
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -28,18 +28,18 @@ import androidx.media.utils.MediaConstants
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import java.io.ByteArrayOutputStream
-import org.oxycblt.auxio.BuildConfig
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.device.DeviceLibrary
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.util.getPlural
+import org.oxycblt.zefio.BuildConfig
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.device.DeviceLibrary
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.util.getPlural
 
 fun MediaSessionUID.Category.toMediaItem(context: Context): MediaItem {
     // TODO: Make custom overflow menu for compat

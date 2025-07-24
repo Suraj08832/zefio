@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * Music.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * Music.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music
+package org.oxycblt.zefio.music
 
 import android.content.Context
 import android.net.Uri
@@ -27,18 +27,18 @@ import java.util.UUID
 import kotlin.math.max
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.oxycblt.auxio.image.extractor.Cover
-import org.oxycblt.auxio.image.extractor.ParentCover
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.music.fs.MimeType
-import org.oxycblt.auxio.music.fs.Path
-import org.oxycblt.auxio.music.info.Date
-import org.oxycblt.auxio.music.info.Disc
-import org.oxycblt.auxio.music.info.Name
-import org.oxycblt.auxio.music.info.ReleaseType
-import org.oxycblt.auxio.playback.replaygain.ReplayGainAdjustment
-import org.oxycblt.auxio.util.concatLocalized
-import org.oxycblt.auxio.util.toUuidOrNull
+import org.oxycblt.zefio.image.extractor.Cover
+import org.oxycblt.zefio.image.extractor.ParentCover
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.music.fs.MimeType
+import org.oxycblt.zefio.music.fs.Path
+import org.oxycblt.zefio.music.info.Date
+import org.oxycblt.zefio.music.info.Disc
+import org.oxycblt.zefio.music.info.Name
+import org.oxycblt.zefio.music.info.ReleaseType
+import org.oxycblt.zefio.playback.replaygain.ReplayGainAdjustment
+import org.oxycblt.zefio.util.concatLocalized
+import org.oxycblt.zefio.util.toUuidOrNull
 
 /**
  * Abstract music data. This contains universal information about all concrete music
@@ -105,8 +105,8 @@ sealed interface Music : Item {
          * @param namespace Namespace to use in the [Music.UID]'s string representation.
          */
         private enum class Format(val namespace: String) {
-            /** @see auxio */
-            AUXIO("org.oxycblt.auxio"),
+            /** @see zefio */
+            zefio("org.oxycblt.zefio"),
 
             /** @see musicBrainz */
             MUSICBRAINZ("org.musicbrainz")
@@ -122,26 +122,26 @@ sealed interface Music : Item {
 
         companion object {
             /**
-             * Creates an Auxio-style [UID] of random composition. Used if there is no
+             * Creates an zefio-style [UID] of random composition. Used if there is no
              * non-subjective, unlikely-to-change metadata of the music.
              *
              * @param type The analogous [MusicType] of the item that created this [UID].
              */
-            fun auxio(type: MusicType): UID {
-                return UID(Format.AUXIO, type, UUID.randomUUID())
+            fun zefio(type: MusicType): UID {
+                return UID(Format.zefio, type, UUID.randomUUID())
             }
 
             /**
-             * Creates an Auxio-style [UID] with a [UUID] composed of a hash of the non-subjective,
+             * Creates an zefio-style [UID] with a [UUID] composed of a hash of the non-subjective,
              * unlikely-to-change metadata of the music.
              *
              * @param type The analogous [MusicType] of the item that created this [UID].
              * @param updates Block to update the [MessageDigest] hash with the metadata of the
              *   item. Make sure the metadata hashed semantically aligns with the format
              *   specification.
-             * @return A new auxio-style [UID].
+             * @return A new zefio-style [UID].
              */
-            fun auxio(type: MusicType, updates: MessageDigest.() -> Unit): UID {
+            fun zefio(type: MusicType, updates: MessageDigest.() -> Unit): UID {
                 val digest =
                     MessageDigest.getInstance("SHA-256").run {
                         updates()
@@ -171,7 +171,7 @@ sealed interface Music : Item {
                             .or(digest[13].toLong().and(0xFF).shl(16))
                             .or(digest[14].toLong().and(0xFF).shl(8))
                             .or(digest[15].toLong().and(0xFF)))
-                return UID(Format.AUXIO, type, uuid)
+                return UID(Format.zefio, type, uuid)
             }
 
             /**
@@ -201,7 +201,7 @@ sealed interface Music : Item {
 
                 val format =
                     when (split[0]) {
-                        Format.AUXIO.namespace -> Format.AUXIO
+                        Format.zefio.namespace -> Format.zefio
                         Format.MUSICBRAINZ.namespace -> Format.MUSICBRAINZ
                         else -> return null
                     }

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * Auxio.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * zefio.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package org.oxycblt.zefio
 
 import android.app.Application
 import android.content.Intent
@@ -25,10 +25,10 @@ import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
-import org.oxycblt.auxio.home.HomeSettings
-import org.oxycblt.auxio.image.ImageSettings
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.ui.UISettings
+import org.oxycblt.zefio.home.HomeSettings
+import org.oxycblt.zefio.image.ImageSettings
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.ui.UISettings
 import timber.log.Timber
 
 /**
@@ -37,7 +37,7 @@ import timber.log.Timber
  * @author Alexander Capehart (OxygenCobalt)
  */
 @HiltAndroidApp
-class Auxio : Application() {
+class zefio : Application() {
     @Inject lateinit var imageSettings: ImageSettings
     @Inject lateinit var playbackSettings: PlaybackSettings
     @Inject lateinit var uiSettings: UISettings
@@ -56,7 +56,7 @@ class Auxio : Application() {
         homeSettings.migrate()
         // Adding static shortcuts in a dynamic manner is better than declaring them
         // manually, as it will properly handle the difference between debug and release
-        // Auxio instances.
+        // zefio instances.
         // TODO: Switch to static shortcuts
         ShortcutManagerCompat.addDynamicShortcuts(
             this,

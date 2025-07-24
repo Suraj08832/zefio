@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * MusicViewModel.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * MusicViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music
+package org.oxycblt.zefio.music
 
 import android.net.Uri
 import androidx.lifecycle.ViewModel
@@ -27,14 +27,14 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.ListSettings
-import org.oxycblt.auxio.music.external.ExportConfig
-import org.oxycblt.auxio.music.external.ExternalPlaylistManager
-import org.oxycblt.auxio.util.Event
-import org.oxycblt.auxio.util.MutableEvent
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.ListSettings
+import org.oxycblt.zefio.music.external.ExportConfig
+import org.oxycblt.zefio.music.external.ExternalPlaylistManager
+import org.oxycblt.zefio.util.Event
+import org.oxycblt.zefio.util.MutableEvent
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
 
 /**
  * A [ViewModel] providing data specific to the music loading process.

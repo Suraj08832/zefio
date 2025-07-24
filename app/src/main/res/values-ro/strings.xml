@@ -263,7 +263,7 @@
     <string name="set_repeat_pause_desc">Pune pauză atunci când un cântec se repetă</string>
     <string name="set_dirs_mode">Mod</string>
     <string name="err_index_failed">Încărcarea muzicii a eșuat</string>
-    <string name="err_no_perms">Auxio are nevoie de permisiune ca să-ți acceseze biblioteca de muzică</string>
+    <string name="err_no_perms">zefio are nevoie de permisiune ca să-ți acceseze biblioteca de muzică</string>
     <string name="desc_song_handle">Mută acest cântec</string>
     <string name="err_no_dirs">Niciun dosar</string>
     <string name="desc_shuffle">Pornește sau oprește amestecarea</string>

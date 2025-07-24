@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * BaseBottomSheetBehavior.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * BaseBottomSheetBehavior.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -27,11 +27,11 @@ import android.view.WindowInsets
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.R as MR
 import com.google.android.material.bottomsheet.BackportBottomSheetBehavior
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.util.getDimen
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.systemGestureInsetsCompat
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.util.getDimen
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.systemGestureInsetsCompat
 
 /**
  * A BottomSheetBehavior that resolves several issues with the default implementation, including:

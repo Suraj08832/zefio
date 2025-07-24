@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * QueueViewModel.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * QueueViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,21 +16,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.queue
+package org.oxycblt.zefio.playback.queue
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.list.adapter.UpdateInstructions
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.QueueChange
-import org.oxycblt.auxio.util.Event
-import org.oxycblt.auxio.util.MutableEvent
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.list.adapter.UpdateInstructions
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.QueueChange
+import org.oxycblt.zefio.util.Event
+import org.oxycblt.zefio.util.MutableEvent
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewModel] that manages the current queue state and allows navigation through the queue.

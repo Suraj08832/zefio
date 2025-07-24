@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * PlaybackBarFragment.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * PlaybackBarFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,24 +16,24 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback
+package org.oxycblt.zefio.playback
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.R as MR
 import dagger.hilt.android.AndroidEntryPoint
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentPlaybackBarBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.resolveNames
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getColorCompat
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentPlaybackBarBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.resolveNames
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getColorCompat
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [ViewBindingFragment] that shows the current playback state in a compact manner.

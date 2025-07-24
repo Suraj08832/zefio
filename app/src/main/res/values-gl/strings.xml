@@ -171,7 +171,7 @@
     <string name="desc_queue_bar">Abrir a cola</string>
     <string name="desc_clear_search">Borrar o historial de busca</string>
     <string name="desc_music_dir_delete">Quitar cartafol</string>
-    <string name="desc_auxio_icon">Icona de Auxio</string>
+    <string name="desc_zefio_icon">Icona de zefio</string>
     <string name="desc_no_cover">Portada de álbum</string>
     <string name="desc_album_cover">Portada de álbum para %s</string>
     <string name="desc_artist_image">Imaxe de artista para %s</string>
@@ -183,7 +183,7 @@
     <string name="cdc_mp3">Audio MPEG-1</string>
     <string name="cdc_mp4">Audio MPEG-4</string>
     <string name="err_index_failed">Fallou a carga de música</string>
-    <string name="err_no_perms">Auxio necesita permiso para leer a túa biblioteca de música</string>
+    <string name="err_no_perms">zefio necesita permiso para leer a túa biblioteca de música</string>
     <string name="err_no_app">Non se atopou ningunha aplicación que poda facer esta tarefa</string>
     <string name="err_no_dirs">Sen cartafois</string>
     <string name="cdc_ogg">Audio ogg</string>

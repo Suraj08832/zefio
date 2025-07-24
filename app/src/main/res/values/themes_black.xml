@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Auxio.Black" parent="Theme.Auxio.Base">
+    <style name="Theme.zefio.Black" parent="Theme.zefio.Base">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Red" parent="Theme.Auxio.Red">
+    <style name="Theme.zefio.Black.Red" parent="Theme.zefio.Red">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Pink" parent="Theme.Auxio.Pink">
+    <style name="Theme.zefio.Black.Pink" parent="Theme.zefio.Pink">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Purple" parent="Theme.Auxio.Purple">
+    <style name="Theme.zefio.Black.Purple" parent="Theme.zefio.Purple">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.DeepPurple" parent="Theme.Auxio.DeepPurple">
+    <style name="Theme.zefio.Black.DeepPurple" parent="Theme.zefio.DeepPurple">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Indigo" parent="Theme.Auxio.Indigo">
+    <style name="Theme.zefio.Black.Indigo" parent="Theme.zefio.Indigo">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Blue" parent="Theme.Auxio.Blue">
+    <style name="Theme.zefio.Black.Blue" parent="Theme.zefio.Blue">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.DeepBlue" parent="Theme.Auxio.DeepBlue">
+    <style name="Theme.zefio.Black.DeepBlue" parent="Theme.zefio.DeepBlue">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Cyan" parent="Theme.Auxio.Cyan">
+    <style name="Theme.zefio.Black.Cyan" parent="Theme.zefio.Cyan">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Teal" parent="Theme.Auxio.Teal">
+    <style name="Theme.zefio.Black.Teal" parent="Theme.zefio.Teal">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Green" parent="Theme.Auxio.Green">
+    <style name="Theme.zefio.Black.Green" parent="Theme.zefio.Green">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.DeepGreen" parent="Theme.Auxio.DeepGreen">
+    <style name="Theme.zefio.Black.DeepGreen" parent="Theme.zefio.DeepGreen">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Lime" parent="Theme.Auxio.Lime">
+    <style name="Theme.zefio.Black.Lime" parent="Theme.zefio.Lime">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Yellow" parent="Theme.Auxio.Yellow">
+    <style name="Theme.zefio.Black.Yellow" parent="Theme.zefio.Yellow">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Orange" parent="Theme.Auxio.Orange">
+    <style name="Theme.zefio.Black.Orange" parent="Theme.zefio.Orange">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Brown" parent="Theme.Auxio.Brown">
+    <style name="Theme.zefio.Black.Brown" parent="Theme.zefio.Brown">
         <item name="colorSurface">@android:color/black</item>
     </style>
 
-    <style name="Theme.Auxio.Black.Grey" parent="Theme.Auxio.Grey">
+    <style name="Theme.zefio.Black.Grey" parent="Theme.zefio.Grey">
         <item name="colorSurface">@android:color/black</item>
     </style>
 </resources>

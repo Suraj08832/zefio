@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * ReleaseType.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * ReleaseType.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,10 +16,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.info
+package org.oxycblt.zefio.music.info
 
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.info.ReleaseType.Album
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.info.ReleaseType.Album
 
 /**
  * The type of release an [Album] is considered. This includes EPs, Singles, Compilations, etc.

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * UISettings.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * UISettings.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.os.Build
@@ -24,10 +24,10 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.edit
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.settings.Settings
-import org.oxycblt.auxio.ui.accent.Accent
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.settings.Settings
+import org.oxycblt.zefio.ui.accent.Accent
+import org.oxycblt.zefio.util.logD
 
 /**
  * User configuration for the general app UI.
@@ -102,6 +102,6 @@ class UISettingsImpl @Inject constructor(@ApplicationContext context: Context) :
     }
 
     private companion object {
-        const val OLD_KEY_ACCENT3 = "auxio_accent"
+        const val OLD_KEY_ACCENT3 = "zefio_accent"
     }
 }

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * MainFragment.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * MainFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package org.oxycblt.zefio
 
 import android.animation.ValueAnimator
 import android.os.Bundle
@@ -42,33 +42,33 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.lang.reflect.Method
 import kotlin.math.max
 import kotlin.math.min
-import org.oxycblt.auxio.databinding.FragmentMainBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.detail.Show
-import org.oxycblt.auxio.home.HomeViewModel
-import org.oxycblt.auxio.home.Outer
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.music.IndexingState
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.OpenPanel
-import org.oxycblt.auxio.playback.PlaybackBottomSheetBehavior
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.playback.queue.QueueBottomSheetBehavior
-import org.oxycblt.auxio.ui.DialogAwareNavigationListener
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.collect
-import org.oxycblt.auxio.util.collectImmediately
-import org.oxycblt.auxio.util.context
-import org.oxycblt.auxio.util.coordinatorLayoutBehavior
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getDimen
-import org.oxycblt.auxio.util.lazyReflectedMethod
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.navigateSafe
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.databinding.FragmentMainBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.detail.Show
+import org.oxycblt.zefio.home.HomeViewModel
+import org.oxycblt.zefio.home.Outer
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.music.IndexingState
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.OpenPanel
+import org.oxycblt.zefio.playback.PlaybackBottomSheetBehavior
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.playback.queue.QueueBottomSheetBehavior
+import org.oxycblt.zefio.ui.DialogAwareNavigationListener
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.collect
+import org.oxycblt.zefio.util.collectImmediately
+import org.oxycblt.zefio.util.context
+import org.oxycblt.zefio.util.coordinatorLayoutBehavior
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getDimen
+import org.oxycblt.zefio.util.lazyReflectedMethod
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.navigateSafe
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A wrapper around the home fragment that shows the playback fragment and high-level navigation.

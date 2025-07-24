@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * SwipeCoverView.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * SwipeCoverView.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.ui
+package org.oxycblt.zefio.playback.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -27,8 +27,8 @@ import android.view.MotionEvent
 import android.view.ViewConfiguration
 import androidx.annotation.AttrRes
 import kotlin.math.abs
-import org.oxycblt.auxio.image.CoverView
-import org.oxycblt.auxio.util.isRtl
+import org.oxycblt.zefio.image.CoverView
+import org.oxycblt.zefio.util.isRtl
 
 class SwipeCoverView
 @JvmOverloads

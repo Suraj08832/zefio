@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2017 Auxio Project
- * BetterShuffleOrder.kt is part of Auxio.
+ * Copyright (c) 2017 zefio Project
+ * BetterShuffleOrder.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import androidx.media3.common.C
 import androidx.media3.exoplayer.source.ShuffleOrder

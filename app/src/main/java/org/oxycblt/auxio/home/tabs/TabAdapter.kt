@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * TabAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * TabAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,19 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.tabs
+package org.oxycblt.zefio.home.tabs
 
 import android.annotation.SuppressLint
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.ItemTabBinding
-import org.oxycblt.auxio.list.EditClickListListener
-import org.oxycblt.auxio.list.recycler.DialogRecyclerView
-import org.oxycblt.auxio.music.MusicType
-import org.oxycblt.auxio.util.inflater
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.ItemTabBinding
+import org.oxycblt.zefio.list.EditClickListListener
+import org.oxycblt.zefio.list.recycler.DialogRecyclerView
+import org.oxycblt.zefio.music.MusicType
+import org.oxycblt.zefio.util.inflater
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [RecyclerView.Adapter] that displays an array of [Tab]s open for configuration.

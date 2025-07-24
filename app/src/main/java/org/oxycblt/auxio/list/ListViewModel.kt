@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * ListViewModel.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * ListViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list
+package org.oxycblt.zefio.list
 
 import androidx.annotation.MenuRes
 import androidx.lifecycle.ViewModel
@@ -24,20 +24,20 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.list.menu.Menu
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaySong
-import org.oxycblt.auxio.util.Event
-import org.oxycblt.auxio.util.MutableEvent
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.list.menu.Menu
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaySong
+import org.oxycblt.zefio.util.Event
+import org.oxycblt.zefio.util.MutableEvent
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
 
 /**
  * A [ViewModel] that orchestrates menu dialogs and selection state.

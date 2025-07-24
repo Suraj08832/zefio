@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * SelectionFragment.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * SelectionFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list
+package org.oxycblt.zefio.list
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import androidx.viewbinding.ViewBinding
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.ui.ViewBindingFragment
-import org.oxycblt.auxio.util.overrideOnOverflowMenuClick
-import org.oxycblt.auxio.util.showToast
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.ui.ViewBindingFragment
+import org.oxycblt.zefio.util.overrideOnOverflowMenuClick
+import org.oxycblt.zefio.util.showToast
 
 /**
  * A subset of ListFragment that implements aspects of the selection UI.

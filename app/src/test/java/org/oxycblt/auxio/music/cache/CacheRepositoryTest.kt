@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * CacheRepositoryTest.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * CacheRepositoryTest.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.cache
+package org.oxycblt.zefio.music.cache
 
 import io.mockk.Runs
 import io.mockk.coEvery
@@ -31,8 +31,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.music.info.Date
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.music.info.Date
 
 class CacheRepositoryTest {
     @Test

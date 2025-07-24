@@ -196,7 +196,7 @@
     <string name="set_dirs_mode_include_desc">Glasba se bo nalagala <b>samo</b> iz map, ki jih dodate.</string>
     <string name="set_dirs_mode">Način</string>
     <string name="lbl_single_remix">Remiks singla</string>
-    <string name="err_no_perms">Auxio potrebuje dovoljenje za branje vaše glasbene knjižnice</string>
+    <string name="err_no_perms">zefio potrebuje dovoljenje za branje vaše glasbene knjižnice</string>
     <string name="set_theme">Tema</string>
     <string name="set_library">Knjižnica</string>
     <string name="lbl_library_counts">Statistika knjižnice</string>
@@ -227,7 +227,7 @@
     <string name="set_pre_amp_with">Prilagoditev z oznakami</string>
     <string name="set_headset_autoplay">Predvajanje ob priključitvi slušalk</string>
     <string name="set_separators_comma">Vejica (,)</string>
-    <string name="desc_auxio_icon">Auxio ikona</string>
+    <string name="desc_zefio_icon">zefio ikona</string>
     <string name="desc_track_number">Skladba %d</string>
     <string name="lbl_filter">Filtriraj</string>
     <string name="set_exclude_non_music_desc">Prezri avdio datoteke, ki niso glasba, na primer podkaste</string>

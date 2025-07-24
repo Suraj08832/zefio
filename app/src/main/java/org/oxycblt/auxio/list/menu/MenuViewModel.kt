@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * MenuViewModel.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * MenuViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,17 +16,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.list.menu
+package org.oxycblt.zefio.list.menu
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.playback.PlaySong
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.playback.PlaySong
+import org.oxycblt.zefio.util.logW
 
 /**
  * Manages the state information for [MenuDialogFragment] implementations.

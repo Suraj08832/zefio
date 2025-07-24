@@ -14,16 +14,16 @@
         app:menu="@menu/toolbar_playback"
         app:navigationIcon="@drawable/ic_down_24"
         app:subtitleCentered="true"
-        app:subtitleTextAppearance="@style/TextAppearance.Auxio.BodySmall"
+        app:subtitleTextAppearance="@style/TextAppearance.zefio.BodySmall"
         app:title="@string/lbl_playback"
         app:titleCentered="true"
-        app:titleTextAppearance="@style/TextAppearance.Auxio.LabelLarge"
+        app:titleTextAppearance="@style/TextAppearance.zefio.LabelLarge"
         tools:subtitle="@string/lbl_all_songs" />
 
 
-    <org.oxycblt.auxio.playback.ui.SwipeCoverView
+    <org.oxycblt.zefio.playback.ui.SwipeCoverView
         android:id="@+id/playback_cover"
-        style="@style/Widget.Auxio.Image.Full"
+        style="@style/Widget.zefio.Image.Full"
         android:layout_marginVertical="@dimen/spacing_small"
         app:enablePlaybackIndicator="false"
         app:enableSelectionBadge="false"
@@ -49,20 +49,20 @@
 
         <TextView
             android:id="@+id/playback_song"
-            style="@style/Widget.Auxio.TextView.Primary.Compact"
+            style="@style/Widget.zefio.TextView.Primary.Compact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Song Name" />
 
         <TextView
             android:id="@+id/playback_artist"
-            style="@style/Widget.Auxio.TextView.Secondary.Compact"
+            style="@style/Widget.zefio.TextView.Secondary.Compact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Artist Name" />
 
     </LinearLayout>
-    <org.oxycblt.auxio.playback.ui.ForcedLTRFrameLayout
+    <org.oxycblt.zefio.playback.ui.ForcedLTRFrameLayout
         android:id="@+id/playback_controls_wrapper"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -78,9 +78,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/playback_repeat"
-                style="@style/Widget.Auxio.Button.Icon.Small"
+                style="@style/Widget.zefio.Button.Icon.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_change_repeat"
@@ -90,9 +90,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/playback_skip_prev" />
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/playback_skip_prev"
-                style="@style/Widget.Auxio.Button.Icon.Small.Secondary"
+                style="@style/Widget.zefio.Button.Icon.Small.Secondary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_skip_prev"
@@ -102,9 +102,9 @@
                 app:layout_constraintStart_toEndOf="@+id/playback_repeat"
                 app:layout_constraintTop_toTopOf="@+id/playback_play_pause" />
 
-            <org.oxycblt.auxio.playback.ui.AnimatedMaterialButton
+            <org.oxycblt.zefio.playback.ui.AnimatedMaterialButton
                 android:id="@+id/playback_play_pause"
-                style="@style/Widget.Auxio.Button.Icon.Small.PlayPause"
+                style="@style/Widget.zefio.Button.Icon.Small.PlayPause"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_play_pause"
@@ -115,9 +115,9 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:icon="@drawable/ic_play_24" />
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/playback_skip_next"
-                style="@style/Widget.Auxio.Button.Icon.Small.Secondary"
+                style="@style/Widget.zefio.Button.Icon.Small.Secondary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_skip_next"
@@ -127,9 +127,9 @@
                 app:layout_constraintStart_toEndOf="@+id/playback_play_pause"
                 app:layout_constraintTop_toTopOf="@+id/playback_play_pause" />
 
-            <org.oxycblt.auxio.ui.RippleFixMaterialButton
+            <org.oxycblt.zefio.ui.RippleFixMaterialButton
                 android:id="@+id/playback_shuffle"
-                style="@style/Widget.Auxio.Button.Icon.Small"
+                style="@style/Widget.zefio.Button.Icon.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_shuffle"
@@ -142,6 +142,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </org.oxycblt.auxio.playback.ui.ForcedLTRFrameLayout>
+    </org.oxycblt.zefio.playback.ui.ForcedLTRFrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

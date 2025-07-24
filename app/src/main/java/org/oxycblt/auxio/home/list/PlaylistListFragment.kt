@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaylistListFragment.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaylistListFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,31 +16,31 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.home.list
+package org.oxycblt.zefio.home.list
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.databinding.FragmentHomeListBinding
-import org.oxycblt.auxio.detail.DetailViewModel
-import org.oxycblt.auxio.home.HomeViewModel
-import org.oxycblt.auxio.home.fastscroll.FastScrollRecyclerView
-import org.oxycblt.auxio.list.ListFragment
-import org.oxycblt.auxio.list.ListViewModel
-import org.oxycblt.auxio.list.SelectableListListener
-import org.oxycblt.auxio.list.adapter.SelectionIndicatorAdapter
-import org.oxycblt.auxio.list.recycler.PlaylistViewHolder
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicViewModel
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.playback.formatDurationMs
-import org.oxycblt.auxio.util.collectImmediately
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.databinding.FragmentHomeListBinding
+import org.oxycblt.zefio.detail.DetailViewModel
+import org.oxycblt.zefio.home.HomeViewModel
+import org.oxycblt.zefio.home.fastscroll.FastScrollRecyclerView
+import org.oxycblt.zefio.list.ListFragment
+import org.oxycblt.zefio.list.ListViewModel
+import org.oxycblt.zefio.list.SelectableListListener
+import org.oxycblt.zefio.list.adapter.SelectionIndicatorAdapter
+import org.oxycblt.zefio.list.recycler.PlaylistViewHolder
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicViewModel
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.playback.formatDurationMs
+import org.oxycblt.zefio.util.collectImmediately
 
 /**
  * A [ListFragment] that shows a list of [Playlist]s.

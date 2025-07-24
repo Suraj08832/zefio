@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * DetailDecisionViewModel.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * DetailDecisionViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,21 +16,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.decision
+package org.oxycblt.zefio.detail.decision
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.device.DeviceLibrary
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.device.DeviceLibrary
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
 
 /**
  * A [ViewModel] that stores choice information for [ShowArtistDialog], and possibly others in the

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * MainActivity.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * MainActivity.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package org.oxycblt.zefio
 
 import android.content.Intent
 import android.os.Bundle
@@ -28,17 +28,17 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.updatePadding
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.databinding.ActivityMainBinding
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.playback.state.DeferredPlayback
-import org.oxycblt.auxio.ui.UISettings
-import org.oxycblt.auxio.util.isNight
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logW
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import org.oxycblt.zefio.databinding.ActivityMainBinding
+import org.oxycblt.zefio.playback.PlaybackViewModel
+import org.oxycblt.zefio.playback.state.DeferredPlayback
+import org.oxycblt.zefio.ui.UISettings
+import org.oxycblt.zefio.util.isNight
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logW
+import org.oxycblt.zefio.util.systemBarInsetsCompat
 
 /**
- * Auxio's single [AppCompatActivity].
+ * zefio's single [AppCompatActivity].
  *
  * @author Alexander Capehart (OxygenCobalt)
  *
@@ -70,8 +70,8 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
 
         startService(
-            Intent(this, AuxioService::class.java)
-                .putExtra(AuxioService.INTENT_KEY_START_ID, IntegerTable.START_ID_ACTIVITY))
+            Intent(this, zefioService::class.java)
+                .putExtra(zefioService.INTENT_KEY_START_ID, IntegerTable.START_ID_ACTIVITY))
 
         if (!startIntentAction(intent)) {
             // No intent action to do, just restore the previously saved state.
@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity() {
         val action =
             when (intent.action) {
                 Intent.ACTION_VIEW -> DeferredPlayback.Open(intent.data ?: return false)
-                Auxio.INTENT_KEY_SHORTCUT_SHUFFLE -> DeferredPlayback.ShuffleAll
+                zefio.INTENT_KEY_SHORTCUT_SHUFFLE -> DeferredPlayback.ShuffleAll
                 else -> {
                     logW("Unexpected intent ${intent.action}")
                     return false

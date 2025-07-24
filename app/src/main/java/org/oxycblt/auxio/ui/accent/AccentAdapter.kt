@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * AccentAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * AccentAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui.accent
+package org.oxycblt.zefio.ui.accent
 
 import android.R as SR
 import android.view.View
@@ -24,11 +24,11 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.TooltipCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.R as MR
-import org.oxycblt.auxio.databinding.ItemAccentBinding
-import org.oxycblt.auxio.list.ClickableListListener
-import org.oxycblt.auxio.util.getAttrColorCompat
-import org.oxycblt.auxio.util.getColorCompat
-import org.oxycblt.auxio.util.inflater
+import org.oxycblt.zefio.databinding.ItemAccentBinding
+import org.oxycblt.zefio.list.ClickableListListener
+import org.oxycblt.zefio.util.getAttrColorCompat
+import org.oxycblt.zefio.util.getColorCompat
+import org.oxycblt.zefio.util.inflater
 
 /**
  * A [RecyclerView.Adapter] that displays [Accent] choices.

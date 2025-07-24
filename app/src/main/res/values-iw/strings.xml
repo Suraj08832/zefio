@@ -168,7 +168,7 @@
     <string name="set_dirs">תיקיות מוזיקה</string>
     <string name="set_reindex_desc">טעינה מחדש של ספריית המוזיקה, במידה וניתן ייעשה שימוש בתגיות מהמטמון</string>
     <string name="set_rescan">סריקת מוסיקה מחדש</string>
-    <string name="err_no_perms">‏ Auxio צריך הרשאות על מנת לקרוא את ספריית המוזיקה שלך</string>
+    <string name="err_no_perms">‏ zefio צריך הרשאות על מנת לקרוא את ספריית המוזיקה שלך</string>
     <string name="desc_queue_bar">פתיחת התור</string>
     <string name="fmt_lib_total_duration">משך כולל: %s</string>
     <string name="fmt_def_playlist">רשימת השמעה %d</string>
@@ -228,7 +228,7 @@
     <string name="lng_playlist_deleted">רשימת השמעה נמחקה</string>
     <string name="lng_playlist_added">נוסף לרשימת השמעה</string>
     <string name="desc_shuffle_all">ערבוב כל השירים</string>
-    <string name="desc_auxio_icon">סמל Auxio</string>
+    <string name="desc_zefio_icon">סמל zefio</string>
     <string name="desc_music_dir_delete">הסרת תיקייה</string>
     <string name="desc_playlist_image">תמונת רשימת השמעה עבור %s</string>
     <string name="clr_red">אדום</string>

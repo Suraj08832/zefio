@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * RawMusic.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * RawMusic.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,15 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.device
+package org.oxycblt.zefio.music.device
 
 import java.util.UUID
-import org.oxycblt.auxio.music.Album
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.fs.Path
-import org.oxycblt.auxio.music.info.Date
-import org.oxycblt.auxio.music.info.ReleaseType
+import org.oxycblt.zefio.music.Album
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.fs.Path
+import org.oxycblt.zefio.music.info.Date
+import org.oxycblt.zefio.music.info.ReleaseType
 
 /**
  * Raw information about a [SongImpl] obtained from the filesystem/Extractor instances.

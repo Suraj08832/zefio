@@ -77,7 +77,7 @@
     <!-- Error Namespace | Error Labels -->
     <string name="err_no_music">Треков нет</string>
     <string name="err_index_failed">Ошибка чтения библиотеки</string>
-    <string name="err_no_perms">Auxio требуется разрешение на чтение музыкальной библиотеки</string>
+    <string name="err_no_perms">zefio требуется разрешение на чтение музыкальной библиотеки</string>
     <string name="err_no_app">Нет приложений для открытия данной ссылки</string>
     <string name="err_bad_dir">Эта папка не поддерживается</string>
     <!-- Hint Namespace | EditText Hints -->
@@ -95,7 +95,7 @@
     <string name="desc_tab_handle">Переместить вкладку</string>
     <string name="desc_clear_search">Очистить поисковый запрос</string>
     <string name="desc_music_dir_delete">Удалить папку</string>
-    <string name="desc_auxio_icon">Иконка Auxio</string>
+    <string name="desc_zefio_icon">Иконка zefio</string>
     <string name="desc_no_cover">Обложка альбома</string>
     <string name="desc_album_cover">Обложка альбома %s</string>
     <string name="desc_artist_image">Фото исполнителя %s</string>

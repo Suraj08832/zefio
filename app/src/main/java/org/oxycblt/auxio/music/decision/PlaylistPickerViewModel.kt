@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * PlaylistPickerViewModel.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * PlaylistPickerViewModel.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.decision
+package org.oxycblt.zefio.music.decision
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -24,18 +24,18 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import org.oxycblt.auxio.R
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.sort.Sort
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Playlist
-import org.oxycblt.auxio.music.PlaylistDecision
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.external.ExportConfig
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.logW
+import org.oxycblt.zefio.R
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.sort.Sort
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Playlist
+import org.oxycblt.zefio.music.PlaylistDecision
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.external.ExportConfig
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.logW
 
 /**
  * A [ViewModel] managing the state of the playlist picker dialogs.

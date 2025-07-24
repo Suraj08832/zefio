@@ -100,7 +100,7 @@
     <string name="desc_exit">Pysäytä toisto</string>
     <string name="desc_queue_bar">Avaa jono</string>
     <string name="desc_music_dir_delete">Poista kansio</string>
-    <string name="desc_auxio_icon">Auxion kuvake</string>
+    <string name="desc_zefio_icon">zefion kuvake</string>
     <string name="desc_album_cover">Albumin %s kansi</string>
     <string name="desc_genre_image">Tyylilajin %s kuva</string>
     <string name="desc_playlist_image">Soittolistan %s kuva</string>
@@ -169,7 +169,7 @@
     <string name="set_round_mode">Pyöristetty tila</string>
     <string name="lbl_soundtracks">Elokuvamusiikit</string>
     <string name="lbl_mixes">DJ-mixaukset</string>
-    <string name="err_no_perms">Auxio tarvitsee luvan lukea musiikkikirjastoa</string>
+    <string name="err_no_perms">zefio tarvitsee luvan lukea musiikkikirjastoa</string>
     <string name="set_root_title">Asetukset</string>
     <string name="lbl_sort">Järjestä</string>
     <string name="err_no_music">Musiikkia ei löytynyt</string>

@@ -198,13 +198,13 @@
     <string name="set_restore_desc">Restaurar o estado de reprodução salvo anteriormente (se houver)</string>
     <string name="err_no_music">Nenhuma música encontrada</string>
     <string name="err_index_failed">Falha ao carregar música</string>
-    <string name="err_no_perms">O Auxio precisa de permissão para ler a sua biblioteca de músicas</string>
+    <string name="err_no_perms">O zefio precisa de permissão para ler a sua biblioteca de músicas</string>
     <string name="desc_track_number">Música %d</string>
     <string name="desc_play_pause">Reproduzir ou pausar</string>
     <string name="desc_skip_next">Pular para a próxima música</string>
     <string name="desc_skip_prev">Pular para a última música</string>
     <string name="desc_shuffle_all">Embaralhar todas as músicas</string>
-    <string name="desc_auxio_icon">Ícone do Auxio</string>
+    <string name="desc_zefio_icon">Ícone do zefio</string>
     <string name="desc_no_cover">Capa do álbum</string>
     <string name="def_disc">Nenhum disco</string>
     <string name="def_track">Nenhuma faixa</string>

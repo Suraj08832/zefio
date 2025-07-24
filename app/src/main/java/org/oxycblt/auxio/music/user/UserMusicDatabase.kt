@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2023 Auxio Project
- * UserMusicDatabase.kt is part of Auxio.
+ * Copyright (c) 2023 zefio Project
+ * UserMusicDatabase.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.user
+package org.oxycblt.zefio.music.user
 
 import androidx.room.Dao
 import androidx.room.Database
@@ -26,7 +26,7 @@ import androidx.room.Query
 import androidx.room.RoomDatabase
 import androidx.room.Transaction
 import androidx.room.TypeConverters
-import org.oxycblt.auxio.music.Music
+import org.oxycblt.zefio.music.Music
 
 /**
  * Allows persistence of all user-created music information.

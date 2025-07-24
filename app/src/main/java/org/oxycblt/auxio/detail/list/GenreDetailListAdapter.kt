@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2021 Auxio Project
- * GenreDetailListAdapter.kt is part of Auxio.
+ * Copyright (c) 2021 zefio Project
+ * GenreDetailListAdapter.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.detail.list
+package org.oxycblt.zefio.detail.list
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import org.oxycblt.auxio.list.Item
-import org.oxycblt.auxio.list.adapter.SimpleDiffCallback
-import org.oxycblt.auxio.list.recycler.ArtistViewHolder
-import org.oxycblt.auxio.list.recycler.SongViewHolder
-import org.oxycblt.auxio.music.Artist
-import org.oxycblt.auxio.music.Genre
-import org.oxycblt.auxio.music.Music
-import org.oxycblt.auxio.music.Song
+import org.oxycblt.zefio.list.Item
+import org.oxycblt.zefio.list.adapter.SimpleDiffCallback
+import org.oxycblt.zefio.list.recycler.ArtistViewHolder
+import org.oxycblt.zefio.list.recycler.SongViewHolder
+import org.oxycblt.zefio.music.Artist
+import org.oxycblt.zefio.music.Genre
+import org.oxycblt.zefio.music.Music
+import org.oxycblt.zefio.music.Song
 
 /**
  * A [DetailListAdapter] implementing the header and sub-items for the [Genre] detail view.

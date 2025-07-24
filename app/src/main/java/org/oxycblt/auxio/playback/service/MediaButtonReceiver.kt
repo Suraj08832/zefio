@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * MediaButtonReceiver.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * MediaButtonReceiver.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import android.content.BroadcastReceiver
 import android.content.ComponentName
@@ -25,9 +25,9 @@ import android.content.Intent
 import androidx.core.content.ContextCompat
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-import org.oxycblt.auxio.AuxioService
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.util.logD
+import org.oxycblt.zefio.zefioService
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.util.logD
 
 /**
  * A [BroadcastReceiver] that forwards [Intent.ACTION_MEDIA_BUTTON] [Intent]s to
@@ -48,7 +48,7 @@ class MediaButtonReceiver : BroadcastReceiver() {
             // wrong action at the wrong time will result in the app crashing, and there is
             // nothing I can do about it.
             logD("Delivering media button intent $intent")
-            intent.component = ComponentName(context, AuxioService::class.java)
+            intent.component = ComponentName(context, zefioService::class.java)
             ContextCompat.startForegroundService(context, intent)
         }
     }

@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * ExoPlaybackStateHolder.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * ExoPlaybackStateHolder.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.playback.service
+package org.oxycblt.zefio.playback.service
 
 import android.content.Context
 import android.content.Intent
@@ -42,27 +42,27 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.yield
-import org.oxycblt.auxio.image.ImageSettings
-import org.oxycblt.auxio.music.MusicParent
-import org.oxycblt.auxio.music.MusicRepository
-import org.oxycblt.auxio.music.Song
-import org.oxycblt.auxio.music.service.toMediaItem
-import org.oxycblt.auxio.music.service.toSong
-import org.oxycblt.auxio.playback.PlaybackSettings
-import org.oxycblt.auxio.playback.msToSecs
-import org.oxycblt.auxio.playback.persist.PersistenceRepository
-import org.oxycblt.auxio.playback.replaygain.ReplayGainAudioProcessor
-import org.oxycblt.auxio.playback.state.DeferredPlayback
-import org.oxycblt.auxio.playback.state.PlaybackCommand
-import org.oxycblt.auxio.playback.state.PlaybackStateHolder
-import org.oxycblt.auxio.playback.state.PlaybackStateManager
-import org.oxycblt.auxio.playback.state.Progression
-import org.oxycblt.auxio.playback.state.RawQueue
-import org.oxycblt.auxio.playback.state.RepeatMode
-import org.oxycblt.auxio.playback.state.ShuffleMode
-import org.oxycblt.auxio.playback.state.StateAck
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
+import org.oxycblt.zefio.image.ImageSettings
+import org.oxycblt.zefio.music.MusicParent
+import org.oxycblt.zefio.music.MusicRepository
+import org.oxycblt.zefio.music.Song
+import org.oxycblt.zefio.music.service.toMediaItem
+import org.oxycblt.zefio.music.service.toSong
+import org.oxycblt.zefio.playback.PlaybackSettings
+import org.oxycblt.zefio.playback.msToSecs
+import org.oxycblt.zefio.playback.persist.PersistenceRepository
+import org.oxycblt.zefio.playback.replaygain.ReplayGainAudioProcessor
+import org.oxycblt.zefio.playback.state.DeferredPlayback
+import org.oxycblt.zefio.playback.state.PlaybackCommand
+import org.oxycblt.zefio.playback.state.PlaybackStateHolder
+import org.oxycblt.zefio.playback.state.PlaybackStateManager
+import org.oxycblt.zefio.playback.state.Progression
+import org.oxycblt.zefio.playback.state.RawQueue
+import org.oxycblt.zefio.playback.state.RepeatMode
+import org.oxycblt.zefio.playback.state.ShuffleMode
+import org.oxycblt.zefio.playback.state.StateAck
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
 
 class ExoPlaybackStateHolder(
     private val context: Context,
@@ -570,7 +570,7 @@ class ExoPlaybackStateHolder(
         private val imageSettings: ImageSettings,
     ) {
         fun create(): ExoPlaybackStateHolder {
-            // Since Auxio is a music player, only specify an audio renderer to save
+            // Since zefio is a music player, only specify an audio renderer to save
             // battery/apk size/cache size
             val audioRenderer = RenderersFactory { handler, _, audioListener, _, _ ->
                 arrayOf(

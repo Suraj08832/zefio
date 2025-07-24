@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2024 Auxio Project
- * TagExtractor.kt is part of Auxio.
+ * Copyright (c) 2024 zefio Project
+ * TagExtractor.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.music.metadata
+package org.oxycblt.zefio.music.metadata
 
 import android.os.Handler
 import android.os.HandlerThread
@@ -38,12 +38,12 @@ import com.google.common.util.concurrent.SettableFuture
 import javax.inject.Inject
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.yield
-import org.oxycblt.auxio.music.device.RawSong
-import org.oxycblt.auxio.music.fs.toAudioUri
-import org.oxycblt.auxio.util.forEachWithTimeout
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.logE
-import org.oxycblt.auxio.util.sendWithTimeout
+import org.oxycblt.zefio.music.device.RawSong
+import org.oxycblt.zefio.music.fs.toAudioUri
+import org.oxycblt.zefio.util.forEachWithTimeout
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.logE
+import org.oxycblt.zefio.util.sendWithTimeout
 
 class TagExtractor
 @Inject
@@ -98,7 +98,7 @@ private class MetadataWorker(
     private val mediaSourceFactory: Factory,
     private val tagInterpreter: TagInterpreter
 ) : Handler.Callback {
-    private val mediaSourceThread = HandlerThread("Auxio:ChunkedMetadataRetriever")
+    private val mediaSourceThread = HandlerThread("zefio:ChunkedMetadataRetriever")
     private val mediaSourceHandler: HandlerWrapper
     private val jobs = Array<MetadataJob?>(8) { null }
 

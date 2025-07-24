@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2022 Auxio Project
- * ViewBindingBottomSheetDialogFragment.kt is part of Auxio.
+ * Copyright (c) 2022 zefio Project
+ * ViewBindingBottomSheetDialogFragment.kt is part of zefio.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio.ui
+package org.oxycblt.zefio.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -30,9 +30,9 @@ import com.google.android.material.bottomsheet.BackportBottomSheetBehavior
 import com.google.android.material.bottomsheet.BackportBottomSheetDialog
 import com.google.android.material.bottomsheet.BackportBottomSheetDialogFragment
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import org.oxycblt.auxio.util.getDimenPixels
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.unlikelyToBeNull
+import org.oxycblt.zefio.util.getDimenPixels
+import org.oxycblt.zefio.util.logD
+import org.oxycblt.zefio.util.unlikelyToBeNull
 
 /**
  * A lifecycle-aware [DialogFragment] that automatically manages the [ViewBinding] lifecycle as a
