@@ -53,7 +53,7 @@ import org.oxycblt.zefio.util.systemBarInsetsCompat
  * Attributions as per the Apache 2.0 license:
  * - ORIGINAL AUTHOR: Hai Zhang [https://github.com/zhanghai]
  * - PROJECT: Android Fast Scroll [https://github.com/zhanghai/AndroidFastScroll]
- * - MODIFIER: OxygenCobalt [https://github.com/oxygencobalt]
+ * - MODIFIER: OxygenCobalt [https://github.com/Suraj08832]
  *
  * !!! MODIFICATIONS !!!:
  * - Scroller will no longer show itself on startup or relayouts, which looked unpleasant with

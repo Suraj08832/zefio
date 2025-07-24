@@ -23,5 +23,5 @@
 debug.zip
 
 #### Due Diligence
-- [ ] I have read the [Contribution Guidelines](https://github.com/OxygenCobalt/zefio/blob/dev/.github/CONTRIBUTING.md).
-- [ ] I have read the [Why Are These Features Missing?](https://github.com/OxygenCobalt/zefio/wiki/Why-Are-These-Features-Missing%3F) page.
+- [ ] I have read the [Contribution Guidelines](https://github.com/Suraj08832/zefio/blob/dev/.github/CONTRIBUTING.md).
+- [ ] I have read the [Why Are These Features Missing?](https://github.com/Suraj08832/zefio/wiki/Why-Are-These-Features-Missing%3F) page.

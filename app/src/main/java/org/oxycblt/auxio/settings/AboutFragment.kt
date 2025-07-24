@@ -92,10 +92,10 @@ class AboutFragment : ViewBindingFragment<FragmentAboutBinding>() {
     }
 
     private companion object {
-        const val LINK_SOURCE = "https://github.com/OxygenCobalt/zefio"
+        const val LINK_SOURCE = "https://github.com/Suraj08832/zefio"
         const val LINK_WIKI = "$LINK_SOURCE/wiki"
         const val LINK_LICENSES = "$LINK_WIKI/Licenses"
-        const val LINK_PROFILE = "https://github.com/OxygenCobalt"
+        const val LINK_PROFILE = "https://github.com/Suraj08832"
         const val LINK_DONATE = "https://github.com/sponsors/OxygenCobalt"
     }
 }

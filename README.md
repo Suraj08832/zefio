@@ -2,10 +2,10 @@
 <h1 align="center"><b>zefio</b></h1>
 <h4 align="center">A simple, rational music player for android.</h4>
 <p align="center">
-    <a href="https://github.com/oxygencobalt/zefio/releases/tag/v3.5.3">
+    <a href="https://github.com/Suraj08832/zefio/releases/tag/v3.5.3">
         <img alt="Latest Version" src="https://img.shields.io/static/v1?label=tag&message=v3.5.3&color=64B5F6&style=flat">
     </a>
-    <a href="https://github.com/oxygencobalt/zefio/releases/">
+    <a href="https://github.com/Suraj08832/zefio/releases/">
         <img alt="Releases" src="https://img.shields.io/github/downloads/OxygenCobalt/zefio/total.svg?color=4B95DE&style=flat">
     </a>
     <a href="https://www.gnu.org/licenses/gpl-3.0">
@@ -13,7 +13,7 @@
     </a>
     <img alt="Minimum SDK Version" src="https://img.shields.io/badge/API-24%2B-1450A8?style=flat">
 </p>
-<h4 align="center"><a href="/CHANGELOG.md">Changelog</a> | <a href="https://github.com/OxygenCobalt/zefio/wiki">Wiki</a> | <a href="https://github.com/OxygenCobalt/zefio#Donate">Donate</a></h4>
+<h4 align="center"><a href="/CHANGELOG.md">Changelog</a> | <a href="https://github.com/Suraj08832/zefio/wiki">Wiki</a> | <a href="https://github.com/Suraj08832/zefio#Donate">Donate</a></h4>
 <p align="center">
     <a href="https://f-droid.org/app/org.oxycblt.zefio"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="170"></a>
     <a href="https://hosted.weblate.org/engage/zefio/"><img height=64 src="https://hosted.weblate.org/widgets/zefio/-/strings/287x66-grey.png" alt="Translation status" /></a>
@@ -95,7 +95,7 @@ will only work on unix-based systems.
 zefio accepts most contributions as long as they follow the [Contribution Guidelines](/.github/CONTRIBUTING.md).
 
 However, feature additions and major UI changes are less likely to be accepted. See
-[Why Are These Features Missing?](https://github.com/OxygenCobalt/zefio/wiki/Why-Are-These-Features-Missing%3F)
+[Why Are These Features Missing?](https://github.com/Suraj08832/zefio/wiki/Why-Are-These-Features-Missing%3F)
 for more information.
 
 
@@ -110,4 +110,4 @@ will. Specifically you can redistribute and/or modify it under the terms of the
 published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-More information can be found [here](https://github.com/OxygenCobalt/zefio/wiki/Licenses).
+More information can be found [here](https://github.com/Suraj08832/zefio/wiki/Licenses).

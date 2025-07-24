@@ -83,7 +83,7 @@ class ErrorDetailsDialog : ViewBindingMaterialDialogFragment<DialogErrorDetailsB
     private companion object {
         /** The URL to the bug report issue form */
         const val LINK_ISSUES =
-            "https://github.com/OxygenCobalt/zefio/issues/new" +
+            "https://github.com/Suraj08832/zefio/issues/new" +
                 "?assignees=OxygenCobalt&labels=bug&projects=&template=bug-crash-report.yml"
     }
 }

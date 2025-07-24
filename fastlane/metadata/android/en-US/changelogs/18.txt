@@ -1,1 +1,1 @@
-zefio 2.5.0 allows the app to respond to changes in your music library, alongside a variety of bug fixes and UI improvements. For more information, see https://github.com/OxygenCobalt/zefio/releases/tag/v2.5.0.
+zefio 2.5.0 allows the app to respond to changes in your music library, alongside a variety of bug fixes and UI improvements. For more information, see https://github.com/Suraj08832/zefio/releases/tag/v2.5.0.

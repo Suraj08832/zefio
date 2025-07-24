@@ -36,7 +36,7 @@ import org.oxycblt.zefio.util.lazyReflectedMethod
 
 /**
  * Get a content resolver that will not mangle MediaStore queries on certain devices. See
- * https://github.com/OxygenCobalt/zefio/issues/50 for more info.
+ * https://github.com/Suraj08832/zefio/issues/50 for more info.
  */
 val Context.contentResolverSafe: ContentResolver
     get() = applicationContext.contentResolver
